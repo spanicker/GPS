@@ -1,0 +1,40 @@
+
+.footer {
+	color: #969595;
+	background-color: #464646;
+	padding: 20px 30px;
+	border-top: 3px solid $fontcolor-cyan;
+	font-size: 15px;
+}
+
+.footer a {
+	color: #fff;
+}
+
+.footerBlocks {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.aboutUs,.testimonials,.contactUs {
+	width: 30.66%;
+	position: relative;
+}
+
+.aboutUs,.testimonials {
+	float: left;
+	margin-right: 4%;
+}  
+.contactUs {
+	float: right;
+	display: inline-block;
+}
+
+.phone li {
+	display: block;
+}
+
+.email li {
+	display: block;
+	text-decoration: none;
+}

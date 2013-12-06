@@ -1,0 +1,35 @@
+
+
+.bio-row {
+	padding: 10px 0px;
+}
+.bio-row .photo {
+	float:left;
+	width: 25%;
+}
+.bio-row .bio {
+	float:left;
+	width: 75%;
+
+}
+
+.bio-row img {
+	-moz-border-radius: 16px;
+	-ms-border-radius: 16px;
+	-o-border-radius: 16px;
+	-webkit-border-radius: 16px;
+
+	-webkit-box-shadow: 0 0 4px #444444;
+	-moz-box-shadow: 0 0 4px #444444;
+	box-shadow: 0 0 4px #444444;
+}
+
+
+/*.bio-row .intro {
+	float:left;
+	padding: 80px 0px 10px;
+	width: 12%;
+	border: 1px solid red;
+}*/
+
+

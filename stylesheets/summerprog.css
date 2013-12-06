@@ -1,0 +1,47 @@
+/* line 4, ../sass/summerprog.scss */
+.mainpanel {
+  width: 75%;
+  float: left;
+}
+
+/* line 9, ../sass/summerprog.scss */
+.rightpanel {
+  width: 25%;
+  float: right;
+  margin-top: 20px;
+}
+
+/* line 15, ../sass/summerprog.scss */
+.rightpanel li a {
+  display: block;
+  padding: 12px 8px;
+  text-decoration: none;
+}
+
+/* line 21, ../sass/summerprog.scss */
+.summary {
+  margin: 0px 40px 40px;
+}
+
+/* line 25, ../sass/summerprog.scss */
+.summary li {
+  display: inline-block;
+  padding: 8px 25px;
+}
+
+/* line 30, ../sass/summerprog.scss */
+.summary li a {
+  color: #00aeef;
+  /* cyan */
+  font-weight: bold;
+}
+
+/*
+.summary li a:visited {
+	color: #636363;
+}*/
+/* line 38, ../sass/summerprog.scss */
+.summary .middle {
+  border-left: 1px solid #c2c2c2;
+  border-right: 1px solid #c2c2c2;
+}

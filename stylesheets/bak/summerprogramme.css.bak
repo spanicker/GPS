@@ -1,0 +1,41 @@
+
+
+
+.mainpanel {
+	width: 75%;
+	float: left;
+}
+
+.rightpanel {
+	width: 25%;
+	float: right;
+	margin-top: 20px;
+}
+
+.rightpanel li a {
+	display: block;
+	padding: 12px 8px;
+	text-decoration: none;
+}
+
+.summary {
+	margin: 0px 40px 40px;
+}
+
+.summary li {
+	display: inline-block;
+	padding: 8px 25px;
+}
+
+.summary li a {
+	color: #00aeef; /* cyan */
+	font-weight: bold;
+}
+/*
+.summary li a:visited {
+	color: #636363;
+}*/
+.summary .middle {
+	border-left: 1px solid #c2c2c2;
+	border-right: 1px solid #c2c2c2;
+}

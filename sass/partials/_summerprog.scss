@@ -1,0 +1,55 @@
+
+
+.mainpanel {
+	width: 75%;
+	float: left;
+}
+
+.rightpanel {
+	width: 25%;
+	float: right;
+	margin-top: 20px;
+}
+
+.rightpanel li {
+	list-style: none;
+}
+.rightpanel li a {
+	display: block;
+	padding: 12px 8px;
+	text-decoration: none;
+}
+
+.rightpanel li a:hover {
+	color: $fontcolor-cyan;
+	transition: color 0.3s ease;
+}
+
+
+.introduction {
+	padding: 0px 20px 0px;
+	text-align: center;
+	color: $fontcolor-grey;
+}
+
+.summary {
+	margin: 0px 40px 40px;
+}
+
+.summary .overviewList li {
+	display: inline-block;
+	padding: 8px 25px;
+}
+
+.summary .overviewList li a {
+	color: $fontcolor-cyan;
+	font-weight: bold;
+}
+/*
+.summary li a:visited {
+	color: #636363;
+}*/
+.summary .middle {
+	border-left: 1px solid #c2c2c2;
+	border-right: 1px solid #c2c2c2;
+}
