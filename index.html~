@@ -4,16 +4,16 @@
   <link href="stylesheets/main.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <meta charset="UTF-8" />
 </head>
-<body>
 
+<body>
   <div class="wrapper cf">
     <div class="topBar"></div>
     <header class="cf">
      <div class="topbar"></div>
-     <div class="logo"><a href="index.html"><img class="logoImg" src="photos/logo.png"></a></div>
+     <div class="logo"><a href="index.html"><img class="logoImg" src="logo/small2.png"></a></div>
      <nav>
       <ul class="topnav">
-        <li><a href="index.html">SUMMER PROGRAMME</a></li>
+        <li><a href="index.html">SUMMER PROGRAM</a></li>
         <li><a href="testimonials.html">TESTIMONIALS</a></li>
         <li><a href="about.html">ABOUT</a></li>
         <li><a href="contact.html">CONTACT</a></li>
@@ -22,28 +22,58 @@
     </nav>
   </header>
 
-  <div class="main">
-    <div id="slider" class="slideshow">
-      <div id="mask" class="hidden">  <!-- Mask -->
-        <div class="imgs">
-          <img src="photos/testimonial1.png" id="slide-0" class="opaque" alt="xyz"/>
-          <img src="photos/Testimonial2.png" id="slide-1" alt="xyz"/>
-          <img src="photos/Testimonial3.png" id="slide-2" alt="xyz"/>
-          <img src="photos/Testimonial4.png" id="slide-3" alt="xyz"/>
-          <img src="photos/Testimonial5.png" id="slide-4" alt="xyz"/>
+  <div class="main cf">
+    <div class="mainpanel">
+      <div id="slider" class="slideshow">
+        <div id="mask" class="hidden">  <!-- Mask -->
+          <div class="imgs">
+            <img src="photos/home1.png" id="slide-0" class="opaque" alt="xyz"/>
+            <img src="photos/home2.png" id="slide-1" alt="xyz"/>
+            <img src="photos/home3.png" id="slide-2" alt="xyz"/>
+            <img src="photos/home4.png" id="slide-3" alt="xyz"/>
+          </div>
         </div>
+        <!-- slider navigation -->
+        <div class="nav-slider"> 
+          <ul> 
+            <li><a href="#" id="0" onClick="slide_click(this.id)">1</a></li> 
+            <li><a href="#" id="1" onClick="slide_click(this.id)">2</a></li> 
+            <li><a href="#" id="2" onClick="slide_click(this.id)">3</a></li> 
+            <li><a href="#" id="3" onClick="slide_click(this.id)">4</a></li> 
+          </ul> 
+        </div> 
       </div>
-      <!-- slider navigation -->
-      <div class="nav-slider"> 
-        <ul> 
-          <li><a href="#" id="0" onClick="slide_click(this.id)">1</a></li> 
-          <li><a href="#" id="1" onClick="slide_click(this.id)">2</a></li> 
-          <li><a href="#" id="2" onClick="slide_click(this.id)">3</a></li> 
-          <li><a href="#" id="3" onClick="slide_click(this.id)">4</a></li>
-          <li><a href="#" id="4" onClick="slide_click(this.id)">5</a></li> 
-        </ul> 
-      </div> 
     </div>
+
+    <div class="rightpanel">
+      <nav>
+        <ul>
+          <li><a href="index.html">Overview</a></li>
+          <li><a href="apply.html">Apply</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="costs.html">Costs</a></li>
+          <li><a href="scholarship.html">Scholarships</a></li>
+          <li><a href="accommodation.html">Accommodation</a></li>
+          <li><a href="enquiry.html">Enquiry</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="introduction">
+    <h3>GLOBAL PATHS HELPS STUDENTS IDENTIFY THEIR GOALS AND DEVELOP THE SKILLS <br>TO ACHIEVE THEM.
+    </h3>
+    <h3>11 days, 5 UK cities, global friendships, real-life experience!
+    </h3>
+  </div>
+  <div class="summary">
+    <h4>The Global Paths Summer Programme (GPS) is a 12 day programme for 15-18 year old students from across the world interested in gaining practical insight into the world of work and higher education. <br><br> Students live on 4 Top UK University campuses, meet presenters from leading multinational companies and experience how an organisation moves from idea to market. <br><br> Taught by leading academics and senior corporate employees, students walk away with:
+    </h4>
+    <ul class="overviewList">
+      <li><a href="#">An Individual Career Plan</a></li>
+      <li class="middle"><a href="#">Skills for the Workplace</a></li>
+      <li><a href="#">A Cultural Experience</a></li>
+    </ul>
   </div>
 
   <footer class="footer">
@@ -68,11 +98,12 @@
   </footer>
 
 </div>
+
 <script type="text/javascript">
 var index = 0;
 
 function handleInterval() {
-  if (index > 4) {
+  if (index > 3) {
     index = 0;
   }
   select_image(index);
@@ -88,7 +119,6 @@ function select_image(id)
       document.getElementById('slide-1').className = "";
       document.getElementById('slide-2').className = "";
       document.getElementById('slide-3').className = "";
-      document.getElementById('slide-4').className = "";
       // Set classname opaque.
       document.getElementById('slide-' + id).className = "opaque";
 
@@ -96,7 +126,6 @@ function select_image(id)
       document.getElementById(1).className = "";
       document.getElementById(2).className = "";
       document.getElementById(3).className = "";
-      document.getElementById(4).className = "";
       document.getElementById(id).className = "selected";
     }
 
@@ -106,4 +135,4 @@ function select_image(id)
       select_image(id);
     }
     </script>
-  </body>
+</body>
