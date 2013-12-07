@@ -271,13 +271,13 @@ header nav {
 
 /* line 3, ../sass/partials/_summerprog.scss */
 .mainpanel {
-  width: 75%;
+  width: 80%;
   float: left;
 }
 
 /* line 8, ../sass/partials/_summerprog.scss */
 .rightpanel {
-  width: 25%;
+  width: 20%;
   float: right;
   margin-top: 20px;
 }
