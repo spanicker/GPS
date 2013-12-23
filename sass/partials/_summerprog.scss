@@ -41,9 +41,8 @@
 	padding: 8px 25px;
 }
 
-.summary .overviewList li a {
+.gpsList a {
 	color: $fontcolor-cyan;
-	font-weight: bold;
 }
 /*
 .summary li a:visited {
@@ -52,4 +51,30 @@
 .summary .middle {
 	border-left: 1px solid #c2c2c2;
 	border-right: 1px solid #c2c2c2;
+}
+
+
+.LifePlan,.EnterpriseProj,.Cultural {
+	width: 30.66%;
+	position: relative;
+}
+
+.LifePlan,.EnterpriseProj {
+	float: left;
+	margin-right: 4%;
+}  
+.Cultural {
+	float: right;
+	display: inline-block;
+}
+
+.readMore a {
+	font-size: 13px;
+	padding-right: 17px;
+	background: url("../photos/readmore.png") no-repeat scroll right 3px transparent;
+}
+
+.date {
+	color: $fontcolor-cyan;
+	font-weight: bold;
 }

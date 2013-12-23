@@ -319,19 +319,49 @@ header nav {
 }
 
 /* line 44, ../sass/partials/_summerprog.scss */
-.summary .overviewList li a {
+.gpsList a {
   color: #00aeef;
-  font-weight: bold;
 }
 
 /*
 .summary li a:visited {
 	color: #636363;
 }*/
-/* line 52, ../sass/partials/_summerprog.scss */
+/* line 51, ../sass/partials/_summerprog.scss */
 .summary .middle {
   border-left: 1px solid #c2c2c2;
   border-right: 1px solid #c2c2c2;
+}
+
+/* line 57, ../sass/partials/_summerprog.scss */
+.LifePlan, .EnterpriseProj, .Cultural {
+  width: 30.66%;
+  position: relative;
+}
+
+/* line 62, ../sass/partials/_summerprog.scss */
+.LifePlan, .EnterpriseProj {
+  float: left;
+  margin-right: 4%;
+}
+
+/* line 66, ../sass/partials/_summerprog.scss */
+.Cultural {
+  float: right;
+  display: inline-block;
+}
+
+/* line 71, ../sass/partials/_summerprog.scss */
+.readMore a {
+  font-size: 13px;
+  padding-right: 17px;
+  background: url("../photos/readmore.png") no-repeat scroll right 3px transparent;
+}
+
+/* line 77, ../sass/partials/_summerprog.scss */
+.date {
+  color: #00aeef;
+  font-weight: bold;
 }
 
 /* line 3, ../sass/partials/_apply.scss */
