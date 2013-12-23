@@ -80,6 +80,12 @@ a:visited {
   padding: 15px 30px 0px;
 }
 
+/* line 68, ../sass/partials/_base.scss */
+.blueTitle {
+  color: #00aeef;
+  font-weight: bold;
+}
+
 /* line 2, ../sass/partials/_header.scss */
 .topBar {
   border-bottom: 6px solid #636363;
@@ -356,12 +362,6 @@ header nav {
   font-size: 13px;
   padding-right: 17px;
   background: url("../photos/readmore.png") no-repeat scroll right 3px transparent;
-}
-
-/* line 77, ../sass/partials/_summerprog.scss */
-.date {
-  color: #00aeef;
-  font-weight: bold;
 }
 
 /* line 3, ../sass/partials/_apply.scss */
