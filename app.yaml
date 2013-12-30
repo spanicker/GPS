@@ -6,10 +6,40 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: /
-  static_files: index.html
-  upload: index.html
+- url: /stylesheets
+  static_dir: stylesheets
 
-- url: /(.*)
-  static_files: \1
-  upload: (.*)
+- url: /photos
+  static_dir: photos
+
+- url: /about.html
+  static_files: about.html
+  upload: about.html
+
+- url: /contact.html
+  static_files: contact.html
+  upload: contact.html
+
+- url: /testimonials.html
+  static_files: testimonials.html
+  upload: testimonials.html
+
+- url: /.*
+  script: gps.application
+
+
+
+libraries:
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest
+
+
+#- url: /
+  #static_files: index.html
+  #upload: index.html
+
+#- url: /(.*)
+#  static_files: \1
+#  upload: (.*)

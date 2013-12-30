@@ -1,145 +1,22 @@
-<!doctype html>
-<head>
-  <title>Global Paths</title>
-  <link href="stylesheets/main.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  <meta charset="UTF-8" />
-</head>
+{% extends "slideshow_base.html" %}
 
-<body>
-  <div class="wrapper cf">
-    <div class="topBar"></div>
-    <header class="cf">
-     <div class="topbar"></div>
-     <div class="logo"><a href="index.html"><img class="logoImg" src="photos/logo.png"></a></div>
-     <nav>
-      <ul class="topnav">
-        <li><a href="index.html">SUMMER PROGRAMME</a></li>
-        <li><a href="testimonials.html">TESTIMONIALS</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-      </ul>
-    </nav>
-  </header>
+{% block photos %}
+<img src="photos/accom1.png" id="slide-0" class="opaque" alt="xyz"/>
+<img src="photos/accom2.png" id="slide-1" alt="xyz"/>
+<img src="photos/accom3.png" id="slide-2" alt="xyz"/>
+<img src="photos/accom4.png" id="slide-3" alt="xyz"/>
+<img src="photos/accom5.png" id="slide-4" alt="xyz"/>
+{% endblock %}
 
-  <div class="panel cf">
-    <div class="main cf">
-      <div class="mainpanel">
-        <div id="slider" class="slideshow">
-          <div id="mask" class="hidden">  <!-- Mask -->
-            <div class="imgs">
-              <img src="photos/accom1.png" id="slide-0" class="opaque" alt="xyz"/>
-              <img src="photos/accom2.png" id="slide-1" alt="xyz"/>
-              <img src="photos/accom3.png" id="slide-2" alt="xyz"/>
-              <img src="photos/accom4.png" id="slide-3" alt="xyz"/>
-            </div>
-          </div>
-          <!-- slider navigation -->
-          <div class="nav-slider"> 
-            <ul> 
-              <li><a href="#" id="0" onClick="slide_click(this.id)">1</a></li> 
-              <li><a href="#" id="1" onClick="slide_click(this.id)">2</a></li> 
-              <li><a href="#" id="2" onClick="slide_click(this.id)">3</a></li> 
-              <li><a href="#" id="3" onClick="slide_click(this.id)">4</a></li> 
-            </ul> 
-          </div> 
-        </div>
-      </div>
-
-      <div class="rightpanel">
-        <nav>
-          <ul>
-            <li><a href="index.html">Overview</a></li>
-            <li><a href="apply.html">Apply</a></li>
-            <li><a href="schedule.html">Schedule</a></li>
-            <li><a href="costs.html">Costs</a></li>
-            <li><a href="scholarship.html">Scholarships</a></li>
-            <li><a href="accommodation.html">Accommodation</a></li>
-            <li><a href="enquiry.html">Enquiry</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-
-    <div class="summary">
-      <h2 class="title">Accommodation</h2>
-      <h4>To get the true experience of student life, GPS participants live together in university accommodation at 4 of the UK's top university campuses. <br><br>Accommodation varies from one university to another:<br></h4>
-      <ul class="itemList">
-        <li><a href="http://www.lse.ac.uk/study/studyHome.aspx">London School of Economics (LSE)</a><br>Shared room (2-4 students) with a shared en-suite bathroom.</li>
-        <li><a href="http://www.bath.ac.uk">University of Bath</a><br>Individual rooms within a flat share. Shared bathroom.</li>
-        <li><a href="http://www.birmingham.ac.uk/index.aspx">University of Birmingham</a><br>Individual rooms with a shared bathroom.</li>
-        <li><a href="http://www.manchester.ac.uk">University of Manchester</a><br>Individual rooms within a flat share. Shared bathroom.</li>
-      </ul>
-    </div>
-
-  <!--div class="mainpanel cf">
-    <div class="summary">
-      <h2 class="title">Accommodation</h2>
-      <h4>To get the true experience of student life, GPS participants live together in university accommodation at 4 of the UK's top university campuses. <br><br>Accommodation varies from one university to another:<br></h4>
-      <ul class="itemList">
-        <li><a href="http://www.lse.ac.uk/study/studyHome.aspx">London School of Economics (LSE)</a><br>Shared room (2-4 students) with a shared en-suite bathroom.</li>
-        <li><a href="http://www.bath.ac.uk">University of Bath</a><br>Individual rooms within a flat share. Shared bathroom..</li>
-        <li><a href="http://www.birmingham.ac.uk/index.aspx">University of Birmngham</a><br>To be confirmed.</li>
-        <li><a href="http://www.manchester.ac.uk">University of Manchester</a><br>Individual rooms within a flat share. Shared bathroom.</li>
-      </ul>
-    </div>    
-  </div-->
-
-  <footer class="footer">
-    <div class="footerBlocks cf">
-      <div class="testimonials"><a href="testimonials.html"><h3>TESTIMONIALS</h3></a>
-        <p>Elena Gagovska - NOVA International School, Skopje, Macedonia<br><br>"Everything was really amazing! I conquered my fear of public speaking, I loved the discussions and I really enjoyed writing the life project as it helped me to figure a lot of things out about my life and my future career."</p>
-      </div>
-      <div class="aboutUs"><a href="about.html"><h3>ABOUT US</h3></a>
-        <p>Helen Auckland created the Global Paths Summer Programme (GPS) to help students identify their goals and develop the skills to achieve them. <br>Her aim is to share her knowledge with students to help them make a non-biased, logical decision about what to do post-high school.</p>
-      </div>
-      <div class="ContactUs"><a href="contact.html"><h3>CONTACT US</h3></a>
-        <ul class="phone ">Phone:
-          <li>+44 77142 44112</li>
-          <li>+504 3189 1220</li>
-        </ul>
-        <ul class="email">Email:
-          <li>hrauckland@globalpaths.co.uk</li>
-          <li>oponce@globalpaths.co.uk</li>
-        </ul>
-      </div>
-    </div>
-  </footer>
+{% block centerblock %}
+<div class="summary">
+  <h2 class="title">Accommodation</h2>
+  <h4>To get the true experience of student life, GPS participants live together in university accommodation at 4 of the UK's top university campuses. <br><br>Accommodation varies from one university to another:<br></h4>
+  <ul class="itemList">
+    <li><a href="http://www.lse.ac.uk/study/studyHome.aspx">London School of Economics (LSE)</a><br>Shared room (2-4 students) with a shared en-suite bathroom.</li>
+    <li><a href="http://www.bath.ac.uk">University of Bath</a><br>Individual rooms within a flat share. Shared bathroom.</li>
+    <li><a href="http://www.birmingham.ac.uk/index.aspx">University of Birmingham</a><br>Individual rooms with a shared bathroom.</li>
+    <li><a href="http://www.manchester.ac.uk">University of Manchester</a><br>Individual rooms within a flat share. Shared bathroom.</li>
+  </ul>
 </div>
-
-<script type="text/javascript">
-var index = 0;
-
-function handleInterval() {
-  if (index > 3) {
-    index = 0;
-  }
-  select_image(index);
-  index++;
-}
-
-var intervalHandle = window.setInterval(handleInterval, 3000);
-
-function select_image(id) {
-      // Clear classname.
-      document.getElementById('slide-0').className = "";
-      document.getElementById('slide-1').className = "";
-      document.getElementById('slide-2').className = "";
-      document.getElementById('slide-3').className = "";
-      // Set classname opaque.
-      document.getElementById('slide-' + id).className = "opaque";
-
-      document.getElementById(0).className = "";
-      document.getElementById(1).className = "";
-      document.getElementById(2).className = "";
-      document.getElementById(3).className = "";
-      document.getElementById(id).className = "selected";
-    }
-
-    function slide_click(id) {
-      console.log('clearInterval');
-      window.clearInterval(intervalHandle);
-      select_image(id);
-    }
-    </script>
-
-  </body>
+{% endblock %}
