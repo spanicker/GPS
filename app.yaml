@@ -28,17 +28,12 @@ handlers:
   script: gps.application
 
 
-
 libraries:
 - name: webapp2
   version: latest
 - name: jinja2
   version: latest
 
-
-#- url: /
-  #static_files: index.html
-  #upload: index.html
 
 #- url: /(.*)
 #  static_files: \1
