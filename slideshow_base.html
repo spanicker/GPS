@@ -8,18 +8,7 @@
 <body>
   <div class="wrapper cf">
     <div class="topBar"></div>
-    <header class="cf">
-     <div class="topbar"></div>
-     <div class="logo"><a href="/"><img class="logoImg" src="photos/logo.png"></a></div>
-     <nav>
-      <ul class="topnav">
-        <li><a href="/">SUMMER PROGRAMME</a></li>
-        <li><a href="testimonials.html">TESTIMONIALS</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-      </ul>
-    </nav>
-  </header>
+    {% include "header.html" ignore missing %}
 
   <div class="main cf">
     <div class="mainpanel">
@@ -65,26 +54,7 @@
       {% endblock %}
     </div>
 
-    <footer class="footer">
-      <div class="footerBlocks cf">
-        <div class="testimonials"><a href="testimonials.html"><h3>TESTIMONIALS</h3></a>
-          <p>Elena Gagovska - NOVA International School, Skopje, Macedonia<br><br>"Everything was really amazing! I conquered my fear of public speaking, I loved the discussions and I really enjoyed writing the life project as it helped me to figure a lot of things out about my life and my future career."</p>
-        </div>
-        <div class="aboutUs"><a href="about.html"><h3>ABOUT US</h3></a>
-          <p>Helen Auckland created the Global Paths Summer Programme (GPS) to help students identify their goals and develop the skills to achieve them. <br>Her aim is to share her knowledge with students to help them make a non-biased, logical decision about what to do post-high school.</p>
-        </div>
-        <div class="ContactUs"><a href="contact.html"><h3>CONTACT US</h3></a>
-          <ul class="phone ">Phone:
-            <li>+44 77142 44112</li>
-            <li>+504 3189 1220</li>
-          </ul>
-          <ul class="email">Email:
-            <li>hrauckland@globalpaths.co.uk</li>
-            <li>oponce@globalpaths.co.uk</li>
-          </ul>
-        </div>
-      </div>
-    </footer>
+    {% include "footer.html" ignore missing %}
 
   </div>
 

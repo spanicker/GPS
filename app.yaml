@@ -12,18 +12,6 @@ handlers:
 - url: /photos
   static_dir: photos
 
-- url: /about.html
-  static_files: about.html
-  upload: about.html
-
-- url: /contact.html
-  static_files: contact.html
-  upload: contact.html
-
-- url: /testimonials.html
-  static_files: testimonials.html
-  upload: testimonials.html
-
 - url: /.*
   script: gps.application
 
