@@ -1,3 +1,9 @@
+.home .topnav .homenav,
+.about .topnav .aboutnav,
+.contact .topnav .contactnav,
+.testimonial .topnav .testimonialnav {
+	color: $fontcolor-cyan;
+}
 
 .topBar {
 	border-bottom: 6px solid #636363;
