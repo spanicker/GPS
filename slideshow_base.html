@@ -1,14 +1,9 @@
 <!doctype html>
-<head>
-  <title>Global Paths</title>
-  <link href="stylesheets/main.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  <meta charset="UTF-8" />
-</head>
-
+{% include "head.html" %}
 <body>
   <div class="wrapper cf">
     <div class="topBar"></div>
-    {% include "header.html" ignore missing %}
+    {% include "header.html" %}
 
   <div class="main cf">
     <div class="mainpanel">
@@ -16,7 +11,6 @@
         <div id="mask" class="hidden">  <!-- Mask -->
           <div class="imgs">
             {% block photos %}
-            foo
             {% endblock %}
           </div>
         </div>
@@ -32,30 +26,13 @@
         </div> 
       </div>
     </div>
-
-      <div class="rightpanel">
-        <nav>
-          <ul>
-            <li><a href="/">Overview</a></li>
-            <li><a href="apply">Apply</a></li>
-            <li><a href="schedule">Schedule</a></li>
-            <li><a href="costs">Costs</a></li>
-            <li><a href="scholarship">Scholarships</a></li>
-            <li><a href="accommodation">Accommodation</a></li>
-            <li><a href="enquiry">Enquiry</a></li>
-          </ul>
-        </nav>
-      </div>
+    {% include "rightpanel.html" %}
     </div>
-
     <div class="centerblock">
       {% block centerblock %}
-      foo
       {% endblock %}
     </div>
-
-    {% include "footer.html" ignore missing %}
-
+    {% include "footer.html" %}
   </div>
 
 <script type="text/javascript">
