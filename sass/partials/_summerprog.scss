@@ -20,11 +20,15 @@
 	display: block;
 	padding: 12px 8px;
 	text-decoration: none;
+	//border-left: 1px solid $fontcolor-cyan;
 }
 
 .rightpanel li a:hover {
 	color: $fontcolor-cyan;
 	transition: color 0.3s ease;
+	//border-left: 1px solid $fontcolor-cyan;
+	//border-top: 1px solid transparent;
+	//border-bottom: 1px solid transparent;
 }
 
 
