@@ -4,7 +4,7 @@
 }
 
 .slideshow img {
-	//width: 100%;
+	width: 100%;
 	/*background: transparent;*/
  	/*border-width: 5px solid #fff;*/
 	box-shadow: 0 1px 5px rgba(0,0,0,.2);
@@ -35,6 +35,8 @@
 }
 
 .nav-slider {
+    width: 100%;
+    top: 100%;
     text-align: center; 
     padding-top: 15px; 
 } 

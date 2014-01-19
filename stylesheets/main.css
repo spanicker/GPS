@@ -202,6 +202,7 @@ header nav {
 
 /* line 6, ../sass/partials/_slideshow.scss */
 .slideshow img {
+  width: 100%;
   /*background: transparent;*/
   /*border-width: 5px solid #fff;*/
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
@@ -236,17 +237,19 @@ header nav {
 
 /* line 37, ../sass/partials/_slideshow.scss */
 .nav-slider {
+  width: 100%;
+  top: 100%;
   text-align: center;
   padding-top: 15px;
 }
 
-/* line 41, ../sass/partials/_slideshow.scss */
+/* line 43, ../sass/partials/_slideshow.scss */
 .nav-slider li {
   display: inline;
   margin: 0 5px;
 }
 
-/* line 45, ../sass/partials/_slideshow.scss */
+/* line 47, ../sass/partials/_slideshow.scss */
 .nav-slider li a {
   background: #ddd;
   border: 1px solid #ccc;
@@ -261,24 +264,24 @@ header nav {
   text-indent: -9999px;
 }
 
-/* line 58, ../sass/partials/_slideshow.scss */
+/* line 60, ../sass/partials/_slideshow.scss */
 .nav-slider li a {
   transition: all 300ms ease-out;
 }
 
-/* line 61, ../sass/partials/_slideshow.scss */
+/* line 63, ../sass/partials/_slideshow.scss */
 .nav-slider li a:hover {
   background: #00aeef;
   transition: all 100ms ease-in;
 }
 
-/* line 65, ../sass/partials/_slideshow.scss */
+/* line 67, ../sass/partials/_slideshow.scss */
 .nav-slider li a:active {
   background: #00aeef;
   transition: all 50ms;
 }
 
-/* line 69, ../sass/partials/_slideshow.scss */
+/* line 71, ../sass/partials/_slideshow.scss */
 .nav-slider li a.selected {
   background: #00aeef;
 }
