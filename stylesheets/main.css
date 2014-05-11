@@ -428,11 +428,13 @@ header nav {
 /* line 10, ../sass/partials/_about.scss */
 .bio-row .bio {
   float: left;
+  padding-left: 15px;
   width: 75%;
 }
 
-/* line 16, ../sass/partials/_about.scss */
+/* line 17, ../sass/partials/_about.scss */
 .bio-row img {
+  width: 100%;
   -moz-border-radius: 16px;
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
@@ -448,3 +450,8 @@ header nav {
 	width: 12%;
 	border: 1px solid red;
 }*/
+/* line 3, ../sass/partials/_accepted.scss */
+.summary li a {
+  color: #00aeef;
+  font-weight: bold;
+}
