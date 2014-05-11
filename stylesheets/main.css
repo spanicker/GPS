@@ -114,24 +114,29 @@ header {
 }
 
 /* line 27, ../sass/partials/_header.scss */
+.logo img {
+  width: 100%;
+}
+
+/* line 31, ../sass/partials/_header.scss */
 header nav {
   width: 75%;
   float: right;
 }
 
-/* line 32, ../sass/partials/_header.scss */
+/* line 36, ../sass/partials/_header.scss */
 .topnav {
   list-style: none;
   float: right;
   margin-top: 20px;
 }
 
-/* line 38, ../sass/partials/_header.scss */
+/* line 42, ../sass/partials/_header.scss */
 .topnav li {
   float: left;
 }
 
-/* line 42, ../sass/partials/_header.scss */
+/* line 46, ../sass/partials/_header.scss */
 .topnav li a {
   display: block;
   padding: 8px 15px;
@@ -143,7 +148,7 @@ header nav {
   /*font-size: 15px;*/
 }
 
-/* line 53, ../sass/partials/_header.scss */
+/* line 57, ../sass/partials/_header.scss */
 .topnav li a:hover {
   color: #00aeef;
 }
