@@ -317,25 +317,33 @@ header nav {
   transition: color 0.3s ease;
 }
 
-/* line 34, ../sass/partials/_summerprog.scss */
+/* line 33, ../sass/partials/_summerprog.scss */
+.landingYoutube {
+  width: 80%;
+  height: 400px;
+  margin: 10px 40px 40px;
+  color: #00aeef;
+}
+
+/* line 40, ../sass/partials/_summerprog.scss */
 .introduction {
   padding: 0px 20px 0px;
   text-align: center;
   color: #636363;
 }
 
-/* line 40, ../sass/partials/_summerprog.scss */
+/* line 46, ../sass/partials/_summerprog.scss */
 .summary {
   margin: 0px 40px 40px;
 }
 
-/* line 44, ../sass/partials/_summerprog.scss */
+/* line 50, ../sass/partials/_summerprog.scss */
 .summary .overviewList li {
   display: inline-block;
   padding: 8px 25px;
 }
 
-/* line 49, ../sass/partials/_summerprog.scss */
+/* line 55, ../sass/partials/_summerprog.scss */
 .gpsList a {
   color: #00aeef;
 }
@@ -344,31 +352,31 @@ header nav {
 .summary li a:visited {
 	color: #636363;
 }*/
-/* line 56, ../sass/partials/_summerprog.scss */
+/* line 62, ../sass/partials/_summerprog.scss */
 .summary .middle {
   border-left: 1px solid #c2c2c2;
   border-right: 1px solid #c2c2c2;
 }
 
-/* line 62, ../sass/partials/_summerprog.scss */
+/* line 68, ../sass/partials/_summerprog.scss */
 .LifePlan, .EnterpriseProj, .Cultural {
   width: 30.66%;
   position: relative;
 }
 
-/* line 67, ../sass/partials/_summerprog.scss */
+/* line 73, ../sass/partials/_summerprog.scss */
 .LifePlan, .EnterpriseProj {
   float: left;
   margin-right: 4%;
 }
 
-/* line 71, ../sass/partials/_summerprog.scss */
+/* line 77, ../sass/partials/_summerprog.scss */
 .Cultural {
   float: right;
   display: inline-block;
 }
 
-/* line 76, ../sass/partials/_summerprog.scss */
+/* line 82, ../sass/partials/_summerprog.scss */
 .readMore a {
   font-size: 13px;
   padding-right: 17px;
