@@ -27,16 +27,23 @@
       </div>
       {% include "rightpanel.html" %}
     </div>
-    <div class="centerblock">
-      {% block centerblock %}
-      {% endblock %}
+    <div class="mainblock cf">
+      <div class="leftblock">
+        {% block centerblock %}
+        {% endblock %}
+
+        {% block youtube %}
+        {% endblock %}
+      </div>
+      <div class="rightblock">
+        {% block rightyoutube %}
+        {% endblock %}
+        {% block blog %}
+        {% endblock %}
+      </div>
     </div>
     
-    {% block youtube %}
-    {% endblock %}
-    
-    {% include "footer.html" %}
-    
+    {% include "footer.html" %}    
   </div>
 
 <script type="text/javascript">

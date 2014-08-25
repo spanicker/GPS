@@ -30,13 +30,6 @@
 	//border-bottom: 5px solid transparent;
 }
 
-.landingYoutube {
-	width: 80%;
-	height: 400px;
-	margin: 10px 40px 40px;
-	color: $fontcolor-cyan;
-}
-
 .introduction {
 	padding: 0px 20px 0px;
 	text-align: center;
@@ -84,3 +77,24 @@
 	padding-right: 17px;
 	background: url("../photos/readmore.png") no-repeat scroll right 3px transparent;
 }
+
+.mainYoutube {
+	width: 80%;
+	height: 400px;
+	margin: 10px 40px 40px;
+	color: $fontcolor-cyan;
+}
+
+.rightYoutube {
+	margin-top: 30px;
+	padding: 0px 15px 0px;
+}
+
+.blog {
+	margin-top: 40px;
+	padding: 0px 10px 0px;
+	text-align: center;
+}
+
+
+

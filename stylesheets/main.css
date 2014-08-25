@@ -285,6 +285,18 @@ header nav {
   background: #00aeef;
 }
 
+/* line 71, ../sass/partials/_slideshow.scss */
+.leftblock {
+  width: 77%;
+  float: left;
+}
+
+/* line 76, ../sass/partials/_slideshow.scss */
+.rightblock {
+  width: 23%;
+  float: right;
+}
+
 /* line 2, ../sass/partials/_summerprog.scss */
 .mainpanel {
   width: 80%;
@@ -318,32 +330,24 @@ header nav {
 }
 
 /* line 33, ../sass/partials/_summerprog.scss */
-.landingYoutube {
-  width: 80%;
-  height: 400px;
-  margin: 10px 40px 40px;
-  color: #00aeef;
-}
-
-/* line 40, ../sass/partials/_summerprog.scss */
 .introduction {
   padding: 0px 20px 0px;
   text-align: center;
   color: #636363;
 }
 
-/* line 46, ../sass/partials/_summerprog.scss */
+/* line 39, ../sass/partials/_summerprog.scss */
 .summary {
   margin: 0px 40px 40px;
 }
 
-/* line 50, ../sass/partials/_summerprog.scss */
+/* line 43, ../sass/partials/_summerprog.scss */
 .summary .overviewList li {
   display: inline-block;
   padding: 8px 25px;
 }
 
-/* line 55, ../sass/partials/_summerprog.scss */
+/* line 48, ../sass/partials/_summerprog.scss */
 .gpsList a {
   color: #00aeef;
 }
@@ -352,35 +356,56 @@ header nav {
 .summary li a:visited {
 	color: #636363;
 }*/
-/* line 62, ../sass/partials/_summerprog.scss */
+/* line 55, ../sass/partials/_summerprog.scss */
 .summary .middle {
   border-left: 1px solid #c2c2c2;
   border-right: 1px solid #c2c2c2;
 }
 
-/* line 68, ../sass/partials/_summerprog.scss */
+/* line 61, ../sass/partials/_summerprog.scss */
 .LifePlan, .EnterpriseProj, .Cultural {
   width: 30.66%;
   position: relative;
 }
 
-/* line 73, ../sass/partials/_summerprog.scss */
+/* line 66, ../sass/partials/_summerprog.scss */
 .LifePlan, .EnterpriseProj {
   float: left;
   margin-right: 4%;
 }
 
-/* line 77, ../sass/partials/_summerprog.scss */
+/* line 70, ../sass/partials/_summerprog.scss */
 .Cultural {
   float: right;
   display: inline-block;
 }
 
-/* line 82, ../sass/partials/_summerprog.scss */
+/* line 75, ../sass/partials/_summerprog.scss */
 .readMore a {
   font-size: 13px;
   padding-right: 17px;
   background: url("../photos/readmore.png") no-repeat scroll right 3px transparent;
+}
+
+/* line 81, ../sass/partials/_summerprog.scss */
+.mainYoutube {
+  width: 80%;
+  height: 400px;
+  margin: 10px 40px 40px;
+  color: #00aeef;
+}
+
+/* line 88, ../sass/partials/_summerprog.scss */
+.rightYoutube {
+  margin-top: 30px;
+  padding: 0px 15px 0px;
+}
+
+/* line 93, ../sass/partials/_summerprog.scss */
+.blog {
+  margin-top: 40px;
+  padding: 0px 10px 0px;
+  text-align: center;
 }
 
 /* line 3, ../sass/partials/_apply.scss */
