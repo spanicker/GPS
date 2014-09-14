@@ -82,6 +82,10 @@ a:visited {
   color: #00aeef;
   font-weight: bold;
 }
+/* line 65, ../sass/partials/_base.scss */
+.blueTitle a {
+  color: #00aeef;
+}
 
 /* line 4, ../sass/partials/_header.scss */
 .home .topnav .homenav,
