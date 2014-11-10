@@ -6,8 +6,13 @@
     {% include "header.html" %}
     <div class="panel cf">
       <div class="mainpanel">
+
+      {% block youtube %}
+      {% endblock %}
+
       {% block content %}
       {% endblock %}
+      
       </div>
       {% include "rightpanel.html" %}
     </div>
