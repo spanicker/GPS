@@ -468,7 +468,7 @@ header nav {
 .bio {
   float: left;
   padding-left: 50px;
-  width: 50%;
+  width: 62%;
 }
 
 /* line 18, ../sass/partials/_about.scss */
@@ -492,12 +492,6 @@ header nav {
   margin-top: 20px;
   margin-right: 20px;
   margin-left: 20px;
-}
-
-/* line 40, ../sass/partials/_about.scss */
-.photoPanelist div {
-  width: 100%;
-  display: inline-block;
 }
 
 /* line 3, ../sass/partials/_accepted.scss */
