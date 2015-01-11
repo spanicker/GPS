@@ -113,6 +113,16 @@ a:visited {
   font-weight: bold;
 }
 
+/* line 93, ../sass/partials/_base.scss */
+.blueText {
+  color: #00aeef;
+}
+
+/* line 97, ../sass/partials/_base.scss */
+.orangeText {
+  color: #ffa000;
+}
+
 /* line 4, ../sass/partials/_header.scss */
 .home .topnav .homenav,
 .about .topnav .aboutnav,
