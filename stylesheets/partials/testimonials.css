@@ -1,0 +1,14 @@
+/* line 1, ../../sass/partials/testimonials.scss */
+.photo {
+  float: left;
+  width: 30%;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+/* line 9, ../../sass/partials/testimonials.scss */
+.testimonial {
+  float: left;
+  padding-left: 50px;
+  width: 67%;
+}
