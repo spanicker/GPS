@@ -87,6 +87,32 @@ a:visited {
   color: #00aeef;
 }
 
+/* line 72, ../sass/partials/_base.scss */
+.summary {
+  margin: 0px 40px 40px;
+}
+
+/* line 76, ../sass/partials/_base.scss */
+.summary li {
+  list-style-type: disc;
+}
+
+/* line 80, ../sass/partials/_base.scss */
+.summary li {
+  padding: 8px 25px;
+}
+
+/* line 84, ../sass/partials/_base.scss */
+.summary .itemList li a {
+  color: #00aeef;
+  font-weight: bold;
+}
+
+/* line 89, ../sass/partials/_base.scss */
+.title {
+  font-weight: bold;
+}
+
 /* line 4, ../sass/partials/_header.scss */
 .home .topnav .homenav,
 .about .topnav .aboutnav,
@@ -341,17 +367,12 @@ header nav {
 }
 
 /* line 39, ../sass/partials/_summerprog.scss */
-.summary {
-  margin: 0px 40px 40px;
-}
-
-/* line 43, ../sass/partials/_summerprog.scss */
 .summary .overviewList li {
   display: inline-block;
   padding: 8px 25px;
 }
 
-/* line 48, ../sass/partials/_summerprog.scss */
+/* line 44, ../sass/partials/_summerprog.scss */
 .gpsList a {
   color: #00aeef;
 }
@@ -360,38 +381,38 @@ header nav {
 .summary li a:visited {
 	color: #636363;
 }*/
-/* line 55, ../sass/partials/_summerprog.scss */
+/* line 51, ../sass/partials/_summerprog.scss */
 .summary .middle {
   border-left: 1px solid #c2c2c2;
   border-right: 1px solid #c2c2c2;
 }
 
-/* line 61, ../sass/partials/_summerprog.scss */
+/* line 57, ../sass/partials/_summerprog.scss */
 .LifePlan, .EnterpriseProj, .Cultural {
   width: 30.66%;
   position: relative;
 }
 
-/* line 66, ../sass/partials/_summerprog.scss */
+/* line 62, ../sass/partials/_summerprog.scss */
 .LifePlan, .EnterpriseProj {
   float: left;
   margin-right: 4%;
 }
 
-/* line 70, ../sass/partials/_summerprog.scss */
+/* line 66, ../sass/partials/_summerprog.scss */
 .Cultural {
   float: right;
   display: inline-block;
 }
 
-/* line 75, ../sass/partials/_summerprog.scss */
+/* line 71, ../sass/partials/_summerprog.scss */
 .readMore a {
   font-size: 13px;
   padding-right: 17px;
   background: url("../photos/readmore.png") no-repeat scroll right 3px transparent;
 }
 
-/* line 81, ../sass/partials/_summerprog.scss */
+/* line 77, ../sass/partials/_summerprog.scss */
 .mainYoutube {
   width: 80%;
   height: 400px;
@@ -399,63 +420,24 @@ header nav {
   color: #00aeef;
 }
 
-/* line 88, ../sass/partials/_summerprog.scss */
+/* line 84, ../sass/partials/_summerprog.scss */
 .rightYoutube {
   margin-top: 30px;
   padding: 0px 15px 0px;
 }
 
-/* line 93, ../sass/partials/_summerprog.scss */
+/* line 89, ../sass/partials/_summerprog.scss */
 .blog {
   margin-top: 40px;
   padding: 0px 10px 0px;
   text-align: center;
 }
 
-/* line 3, ../sass/partials/_apply.scss */
-.summary ul {
-  list-style-type: decimal;
-}
-
-/* line 8, ../sass/partials/_apply.scss */
-.title {
-  font-weight: bold;
-}
-
-/*
-.summary li a:visited {
-	color: #636363;
-}*/
-/* line 3, ../sass/partials/_costs.scss */
-.summary ul {
-  list-style-type: disc;
-}
-
-/* line 7, ../sass/partials/_costs.scss */
-.summary .itemList li {
-  /*display: block;*/
-  padding: 8px 25px;
-}
-
-/* line 13, ../sass/partials/_costs.scss */
+/* line 2, ../sass/partials/_costs.scss */
 .costs {
   font-weight: bold;
 }
 
-/*
-.summary li a:visited {
-	color: #636363;
-}*/
-/* line 3, ../sass/partials/_accomodation.scss */
-.summary .itemList li a {
-  color: #00aeef;
-  font-weight: bold;
-}
-
-/*
-.summary li a:visited {
-	color: #636363;
-}*/
 /* line 3, ../sass/partials/_about.scss */
 .photo {
   float: left;

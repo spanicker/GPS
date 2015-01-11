@@ -69,3 +69,24 @@ a:visited {
 	font-weight: bold;
 }
 
+.summary {
+	margin: 0px 40px 40px;
+}
+
+.summary li {
+	list-style-type: disc;
+}
+
+.summary li {
+	padding: 8px 25px;	
+}
+
+.summary .itemList li a {
+	color: $fontcolor-cyan;
+	font-weight: bold;
+}
+
+.title {
+	font-weight: bold;
+}
+
