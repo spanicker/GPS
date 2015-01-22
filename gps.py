@@ -112,6 +112,12 @@ class StudentDetailFormPage(webapp2.RequestHandler):
         template = JINJA_ENVIRONMENT.get_template('studentdetailform.html')
         self.response.out.write(template.render(vars))
 
+class CounselorPage(webapp2.RequestHandler):
+    def get(self):
+        vars = {'page': 'counselor'}
+        template = JINJA_ENVIRONMENT.get_template('counselor.html')
+        self.response.out.write(template.render(vars))
+
 application = webapp2.WSGIApplication([
     ('/', MainPage),
     ('/lifeplan', LifePlanPage),
@@ -130,4 +136,5 @@ application = webapp2.WSGIApplication([
     ('/contact', ContactPage),
     ('/testimonials', TestimonialsPage),
     ('/studentdetailform', StudentDetailFormPage),
+    ('/counselor', CounselorPage)
 ], debug=True)
