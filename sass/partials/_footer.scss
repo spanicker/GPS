@@ -18,20 +18,21 @@
 
 .aboutUs,.testimonials,.contactUs {
 	width: 30.66%;
-	position: relative;
 }
 
-.aboutUs,.testimonials {
+.aboutUs {
 	float: left;
-	margin-right: 4%;
+	margin-right: 3%;
 }  
+.testimonials {
+	display: inline-block;
+}
 .contactUs {
 	float: right;
-	display: inline-block;
 }
 
 .phone li {
-	display: block;
+	//display: block;
 }
 
 .email li {

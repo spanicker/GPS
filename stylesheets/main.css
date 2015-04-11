@@ -216,27 +216,25 @@ header nav {
 /* line 19, ../sass/partials/_footer.scss */
 .aboutUs, .testimonials, .contactUs {
   width: 30.66%;
-  position: relative;
 }
 
-/* line 24, ../sass/partials/_footer.scss */
-.aboutUs, .testimonials {
+/* line 23, ../sass/partials/_footer.scss */
+.aboutUs {
   float: left;
-  margin-right: 4%;
+  margin-right: 3%;
 }
 
-/* line 28, ../sass/partials/_footer.scss */
-.contactUs {
-  float: right;
+/* line 27, ../sass/partials/_footer.scss */
+.testimonials {
   display: inline-block;
 }
 
-/* line 33, ../sass/partials/_footer.scss */
-.phone li {
-  display: block;
+/* line 30, ../sass/partials/_footer.scss */
+.contactUs {
+  float: right;
 }
 
-/* line 37, ../sass/partials/_footer.scss */
+/* line 38, ../sass/partials/_footer.scss */
 .email li {
   display: block;
   text-decoration: none;
