@@ -16,22 +16,22 @@ class MainPage(webapp2.RequestHandler):
     	template = JINJA_ENVIRONMENT.get_template('index.html')
         self.response.out.write(template.render(vars))
 
-class LifePlanPage(webapp2.RequestHandler):
+class StudentLifePage(webapp2.RequestHandler):
     def get(self):
         vars = {'page': 'home'}
-    	template = JINJA_ENVIRONMENT.get_template('lifeplan.html')
+    	template = JINJA_ENVIRONMENT.get_template('studentlife.html')
         self.response.out.write(template.render(vars))
 
-class EnterpriseProjectPage(webapp2.RequestHandler):
+class UniversityChoicePage(webapp2.RequestHandler):
     def get(self):
         vars = {'page': 'home'}
-    	template = JINJA_ENVIRONMENT.get_template('enterpriseproject.html')
+    	template = JINJA_ENVIRONMENT.get_template('universitychoice.html')
         self.response.out.write(template.render(vars))
 
-class CulturePage(webapp2.RequestHandler):
+class DevelopSkillsPage(webapp2.RequestHandler):
     def get(self):
         vars = {'page': 'home'}
-    	template = JINJA_ENVIRONMENT.get_template('culture.html')
+    	template = JINJA_ENVIRONMENT.get_template('developskills.html')
         self.response.out.write(template.render(vars))
 
 class ApplyPage(webapp2.RequestHandler):
@@ -64,10 +64,10 @@ class SchedulePage(webapp2.RequestHandler):
     	template = JINJA_ENVIRONMENT.get_template('schedule.html')
         self.response.out.write(template.render(vars))
 
-class ScholarshipPage(webapp2.RequestHandler):
+class SafetyPage(webapp2.RequestHandler):
     def get(self):
         vars = {'page': 'home'}
-    	template = JINJA_ENVIRONMENT.get_template('scholarship.html')
+    	template = JINJA_ENVIRONMENT.get_template('safety.html')
         self.response.out.write(template.render(vars))
 
 class EnquiryPage(webapp2.RequestHandler):
@@ -76,10 +76,10 @@ class EnquiryPage(webapp2.RequestHandler):
     	template = JINJA_ENVIRONMENT.get_template('enquiry.html')
         self.response.out.write(template.render(vars))
 
-class AcceptedPage(webapp2.RequestHandler):
+class VisaPage(webapp2.RequestHandler):
     def get(self):
         vars = {'page': 'home'}
-        template = JINJA_ENVIRONMENT.get_template('accepted.html')
+        template = JINJA_ENVIRONMENT.get_template('visa.html')
         self.response.out.write(template.render(vars))
 
 class AccommodationPage(webapp2.RequestHandler):
@@ -120,18 +120,18 @@ class CounselorPage(webapp2.RequestHandler):
 
 application = webapp2.WSGIApplication([
     ('/', MainPage),
-    ('/lifeplan', LifePlanPage),
-    ('/enterpriseproject', EnterpriseProjectPage),
-    ('/culture', CulturePage),
+    ('/studentlife', StudentLifePage),
+    ('/universitychoice', UniversityChoicePage),
+    ('/developskills', DevelopSkillsPage),
     ('/apply', ApplyPage),
     ('/applicationform', ApplicationFormPage),
     ('/fee', FeePage),
     ('/costs', CostsPage),
     ('/schedule', SchedulePage),
-    ('/scholarship', ScholarshipPage),
+    ('/safety', SafetyPage),
     ('/enquiry', EnquiryPage),
     ('/accommodation', AccommodationPage),
-    ('/accepted', AcceptedPage),
+    ('/visa', VisaPage),
     ('/about', AboutPage),
     ('/contact', ContactPage),
     ('/testimonials', TestimonialsPage),
