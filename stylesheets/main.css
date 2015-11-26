@@ -1,66 +1,48 @@
-/* line 2, ../sass/partials/_base.scss */
+@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
-/* line 8, ../sass/partials/_base.scss */
 body {
   background-color: #e5e5e5;
-  font-family: ‘Trebuchet MS’,Helvetica,sans-serif;
+  font-family: 'Roboto',‘Trebuchet MS’,Helvetica,sans-serif;
   font-style: normal;
   font-weight: normal;
-  color: #636363;
-}
+  color: #636363; }
 
-/* line 16, ../sass/partials/_base.scss */
 h1, h2, h3, h4, h5 {
   font-weight: normal;
-  font-family: ‘Trebuchet MS’,Helvetica,sans-serif;
+  font-family: 'Roboto',‘Trebuchet MS’,Helvetica,sans-serif;
   font-style: normal;
-  font-weight: normal;
-}
+  font-weight: normal; }
 
-/* line 23, ../sass/partials/_base.scss */
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
-/* line 26, ../sass/partials/_base.scss */
 a:link {
-  color: #636363;
-}
+  color: #636363; }
 
-/* line 29, ../sass/partials/_base.scss */
 a:visited {
   color: #636363;
-  /*#a91e22; TODO: fix me.*/
-}
+  /*#a91e22; TODO: fix me.*/ }
 
-/* line 33, ../sass/partials/_base.scss */
 .wrapper {
   width: 80%;
   position: relative;
   margin: auto;
-  background-color: white;
-}
+  background-color: white; }
 
-/* line 41, ../sass/partials/_base.scss */
 .cf:before,
 .cf:after {
   content: " ";
   /* 1 */
   display: table;
-  /* 2 */
-}
+  /* 2 */ }
 
-/* line 45, ../sass/partials/_base.scss */
 .cf:after {
-  clear: both;
-}
+  clear: both; }
 
-/* line 49, ../sass/partials/_base.scss */
 .embeddoc {
   margin-bottom: 20px;
   width: 100%;
@@ -68,115 +50,77 @@ a:visited {
   border: 1px solid #636363;
   -webkit-box-shadow: 0 0 4px #444444;
   -moz-box-shadow: 0 0 4px #444444;
-  box-shadow: 0 0 4px #444444;
-}
+  box-shadow: 0 0 4px #444444; }
 
-/* line 59, ../sass/partials/_base.scss */
 .panel {
   background-color: white;
-  padding: 15px 30px 0px;
-}
+  padding: 15px 30px 0px; }
 
-/* line 64, ../sass/partials/_base.scss */
 .blueTitle {
   color: #00aeef;
-  font-weight: bold;
-}
-/* line 65, ../sass/partials/_base.scss */
-.blueTitle a {
-  color: #00aeef;
-}
+  font-weight: bold; }
+  .blueTitle a {
+    color: #00aeef; }
 
-/* line 72, ../sass/partials/_base.scss */
 .summary {
-  margin: 0px 40px 40px;
-}
+  margin: 0px 40px 40px; }
 
-/* line 76, ../sass/partials/_base.scss */
 .summary li {
-  list-style-type: disc;
-}
+  list-style-type: disc; }
 
-/* line 80, ../sass/partials/_base.scss */
 .summary li {
-  padding: 8px 25px;
-}
+  padding: 8px 25px; }
 
-/* line 84, ../sass/partials/_base.scss */
 .summary .itemList li a {
   color: #00aeef;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
-/* line 89, ../sass/partials/_base.scss */
 .title {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
-/* line 93, ../sass/partials/_base.scss */
 .blueText {
-  color: #00aeef;
-}
+  color: #00aeef; }
 
-/* line 97, ../sass/partials/_base.scss */
 .orangeText {
-  color: #ffa000;
-}
+  color: #ffA000; }
 
-/* line 4, ../sass/partials/_header.scss */
 .home .topnav .homenav,
 .about .topnav .aboutnav,
 .contact .topnav .contactnav,
 .testimonial .topnav .testimonialnav {
-  color: #00aeef;
-}
+  color: #00aeef; }
 
-/* line 8, ../sass/partials/_header.scss */
 .topBar {
   border-bottom: 6px solid #636363;
   /*#969595; */
-  /*#202020;*/
-}
+  /*#202020;*/ }
 
-/* line 14, ../sass/partials/_header.scss */
 header {
   padding: 2px;
   border-bottom: 1px solid #c2c2c2;
   margin-left: 30px;
-  margin-right: 30px;
-}
+  margin-right: 30px; }
 
-/* line 21, ../sass/partials/_header.scss */
 .logo {
   width: 25%;
   float: left;
-  padding: 4px;
-}
+  padding: 4px; }
 
-/* line 27, ../sass/partials/_header.scss */
 .logo img {
-  width: 100%;
-}
+  width: 100%; }
 
-/* line 31, ../sass/partials/_header.scss */
 header nav {
   width: 75%;
-  float: right;
-}
+  float: right; }
 
-/* line 36, ../sass/partials/_header.scss */
 .topnav {
   list-style: none;
   float: right;
-  margin-top: 20px;
-}
+  margin-top: 20px; }
 
-/* line 42, ../sass/partials/_header.scss */
 .topnav li {
-  float: left;
-}
+  float: left; }
 
-/* line 46, ../sass/partials/_header.scss */
 .topnav li a {
   display: block;
   padding: 8px 15px;
@@ -185,34 +129,26 @@ header nav {
   transition: color 0.3s ease;
   /*font-weight: bold;
   font-stretch: condensed;*/
-  /*font-size: 15px;*/
-}
+  /*font-size: 15px;*/ }
 
-/* line 57, ../sass/partials/_header.scss */
 .topnav li a:hover {
-  color: #00aeef;
-}
+  color: #00aeef; }
 
-/* line 61, ../sass/partials/_header.scss */
 .signupBar {
   width: 100%;
   margin-left: 30px;
   margin-right: 30px;
   margin-top: 15px;
-  margin-bottom: 5px;
-}
+  margin-bottom: 5px; }
 
-/* line 70, ../sass/partials/_header.scss */
 .signupMsg {
   width: 73%;
   float: left;
   padding-left: 20px;
   padding-bottom: 20px;
   color: white;
-  background-color: #00aeef;
-}
+  background-color: #00aeef; }
 
-/* line 83, ../sass/partials/_header.scss */
 .signupMsg input[type=submit],
 .signupMsg input[type=text],
 .signupMsg input[type=email] {
@@ -220,114 +156,78 @@ header nav {
   border-radius: 4px;
   float: left;
   padding-right: 20px;
-  margin-right: 20px;
-}
+  margin-right: 20px; }
 
-/* line 91, ../sass/partials/_header.scss */
 .signupImg {
-  float: right;
-}
+  float: right; }
 
-/* line 95, ../sass/partials/_header.scss */
 .signupImg img {
   max-width: 100%;
-  max-height: 100%;
-}
+  max-height: 100%; }
 
-/* line 2, ../sass/partials/_footer.scss */
 .footer {
   color: #969595;
   background-color: #464646;
   padding: 20px 30px;
   border-top: 3px solid #00aeef;
-  font-size: 15px;
-}
+  font-size: 15px; }
 
-/* line 10, ../sass/partials/_footer.scss */
 .footer a {
-  color: #fff;
-}
+  color: #fff; }
 
-/* line 14, ../sass/partials/_footer.scss */
 .footerBlocks {
   max-width: 100%;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
-/* line 19, ../sass/partials/_footer.scss */
 .aboutUs, .testimonials, .contactUs {
-  width: 30.66%;
-}
+  width: 30.66%; }
 
-/* line 23, ../sass/partials/_footer.scss */
 .aboutUs {
   float: left;
-  margin-right: 3%;
-}
+  margin-right: 3%; }
 
-/* line 27, ../sass/partials/_footer.scss */
 .testimonials {
-  display: inline-block;
-}
+  display: inline-block; }
 
-/* line 30, ../sass/partials/_footer.scss */
 .contactUs {
-  float: right;
-}
+  float: right; }
 
-/* line 38, ../sass/partials/_footer.scss */
 .email li {
   display: block;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
-/* line 6, ../sass/partials/_slideshow.scss */
 .slideshow img {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
-  opacity: 0;
-}
+  opacity: 0; }
 
-/* line 11, ../sass/partials/_slideshow.scss */
 .hidden {
   width: 100%;
   height: 400px;
   position: relative;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
-/* line 18, ../sass/partials/_slideshow.scss */
 .slideshow .imgs {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
-/* line 23, ../sass/partials/_slideshow.scss */
 .slideshow img {
   position: absolute;
   opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
+  transition: opacity 1s ease-in-out; }
 
-/* line 29, ../sass/partials/_slideshow.scss */
 .slideshow img.opaque {
-  opacity: 1;
-}
+  opacity: 1; }
 
-/* line 33, ../sass/partials/_slideshow.scss */
 .nav-slider {
   width: 100%;
   top: 100%;
   text-align: center;
-  padding-top: 15px;
-}
+  padding-top: 15px; }
 
-/* line 39, ../sass/partials/_slideshow.scss */
 .nav-slider li {
   display: inline;
-  margin: 0 5px;
-}
+  margin: 0 5px; }
 
-/* line 43, ../sass/partials/_slideshow.scss */
 .nav-slider li a {
   background: #ddd;
   border: 1px solid #ccc;
@@ -339,170 +239,118 @@ header nav {
   display: inline-block;
   height: 11px;
   width: 11px;
-  text-indent: -9999px;
-}
+  text-indent: -9999px; }
 
-/* line 56, ../sass/partials/_slideshow.scss */
 .nav-slider li a {
-  transition: all 300ms ease-out;
-}
+  transition: all 300ms ease-out; }
 
-/* line 59, ../sass/partials/_slideshow.scss */
 .nav-slider li a:hover {
   background: #00aeef;
-  transition: all 100ms ease-in;
-}
+  transition: all 100ms ease-in; }
 
-/* line 63, ../sass/partials/_slideshow.scss */
 .nav-slider li a:active {
   background: #00aeef;
-  transition: all 50ms;
-}
+  transition: all 50ms; }
 
-/* line 67, ../sass/partials/_slideshow.scss */
 .nav-slider li a.selected {
-  background: #00aeef;
-}
+  background: #00aeef; }
 
-/* line 71, ../sass/partials/_slideshow.scss */
 .leftblock {
   width: 77%;
-  float: left;
-}
+  float: left; }
 
-/* line 76, ../sass/partials/_slideshow.scss */
 .rightblock {
   width: 23%;
-  float: right;
-}
+  float: right; }
 
-/* line 2, ../sass/partials/_summerprog.scss */
 .mainpanel {
   width: 80%;
-  float: left;
-}
+  float: left; }
 
-/* line 7, ../sass/partials/_summerprog.scss */
 .rightpanel {
   width: 20%;
   float: right;
-  margin-top: 5px;
-}
+  margin-top: 5px; }
 
-/* line 13, ../sass/partials/_summerprog.scss */
 .rightpanel li {
   list-style: none;
-  display: block;
-}
+  display: block; }
 
-/* line 18, ../sass/partials/_summerprog.scss */
 .rightpanel li a {
   display: block;
   padding: 12px 8px;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
-/* line 25, ../sass/partials/_summerprog.scss */
 .rightpanel li a:hover {
   color: #00aeef;
-  transition: color 0.3s ease;
-}
+  transition: color 0.3s ease; }
 
-/* line 33, ../sass/partials/_summerprog.scss */
 .introduction {
   padding: 0px 20px 0px;
   text-align: center;
-  color: #636363;
-}
+  color: #636363; }
 
-/* line 39, ../sass/partials/_summerprog.scss */
 .summary .overviewList li {
   display: inline-block;
-  padding: 8px 25px;
-}
+  padding: 8px 25px; }
 
-/* line 44, ../sass/partials/_summerprog.scss */
 .gpsList a {
-  color: #00aeef;
-}
+  color: #00aeef; }
 
 /*
 .summary li a:visited {
 	color: #636363;
 }*/
-/* line 51, ../sass/partials/_summerprog.scss */
 .summary .middle {
   border-left: 1px solid #c2c2c2;
-  border-right: 1px solid #c2c2c2;
-}
+  border-right: 1px solid #c2c2c2; }
 
-/* line 57, ../sass/partials/_summerprog.scss */
 .LifePlan, .EnterpriseProj, .Cultural {
   width: 30.66%;
-  position: relative;
-}
+  position: relative; }
 
-/* line 62, ../sass/partials/_summerprog.scss */
 .LifePlan, .EnterpriseProj {
   float: left;
-  margin-right: 4%;
-}
+  margin-right: 4%; }
 
-/* line 66, ../sass/partials/_summerprog.scss */
 .Cultural {
   float: right;
-  display: inline-block;
-}
+  display: inline-block; }
 
-/* line 71, ../sass/partials/_summerprog.scss */
 .readMore a {
   font-size: 13px;
   padding-right: 17px;
-  background: url("../photos/readmore.png") no-repeat scroll right 3px transparent;
-}
+  background: url("../photos/readmore.png") no-repeat scroll right 3px transparent; }
 
-/* line 77, ../sass/partials/_summerprog.scss */
 .mainYoutube {
   width: 80%;
   height: 400px;
   margin: 10px 40px 40px;
-  color: #00aeef;
-}
+  color: #00aeef; }
 
-/* line 84, ../sass/partials/_summerprog.scss */
 .rightYoutube {
   margin-top: 30px;
-  padding: 0px 15px 0px;
-}
+  padding: 0px 15px 0px; }
 
-/* line 89, ../sass/partials/_summerprog.scss */
 .blog {
   margin-top: 40px;
   padding: 0px 10px 0px;
-  text-align: center;
-}
+  text-align: center; }
 
-/* line 2, ../sass/partials/_costs.scss */
 .costs {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
-/* line 3, ../sass/partials/_about.scss */
 .photo {
   float: left;
   width: 30%;
   margin-top: 20px;
-  margin-right: 40px;
-}
+  margin-right: 40px; }
 
-/* line 11, ../sass/partials/_about.scss */
 .bio {
   float: left;
   padding-left: 50px;
-  width: 62%;
-}
+  width: 62%; }
 
-/* line 18, ../sass/partials/_about.scss */
 .photo img {
   width: 100%;
   /*
@@ -513,20 +361,17 @@ header nav {
   -webkit-box-shadow: 0 0 4px #444444;
   -moz-box-shadow: 0 0 4px #444444;
   box-shadow: 0 0 4px #444444;
-  */
-}
+  */ }
 
-/* line 32, ../sass/partials/_about.scss */
 .photoPanelist {
   float: left;
   width: 25%;
   margin-top: 20px;
   margin-right: 20px;
-  margin-left: 20px;
-}
+  margin-left: 20px; }
 
-/* line 3, ../sass/partials/_accepted.scss */
 .summary li a {
   color: #00aeef;
-  font-weight: bold;
-}
+  font-weight: bold; }
+
+/*# sourceMappingURL=main.css.map */
