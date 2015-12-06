@@ -1,0 +1,91 @@
+<!doctype html>
+{% include "head.html" %}
+<body>
+  <div class="wrapper cf {{page}}">
+    <div class="topBar"></div>
+    {% include "counselor/header.html" %}
+    <div class="panel cf">
+      <div class="mainpanel">
+        <div id="slider" class="slideshow">
+        <div id="mask" class="hidden">  <!-- Mask -->
+          <div class="imgs">
+            {% block photos %}
+            {% endblock %}
+          </div>
+        </div>
+        <!-- slider navigation -->
+        <div class="nav-slider"> 
+          <ul> 
+            <li><a href="#" id="0" onClick="slide_click(this.id)">1</a></li> 
+            <li><a href="#" id="1" onClick="slide_click(this.id)">2</a></li> 
+            <li><a href="#" id="2" onClick="slide_click(this.id)">3</a></li> 
+            <li><a href="#" id="3" onClick="slide_click(this.id)">4</a></li> 
+            <li><a href="#" id="4" onClick="slide_click(this.id)">5</a></li>
+          </ul> 
+        </div> 
+        </div>
+      </div>
+      {% include "counselor/rightpanel.html" %}
+    </div>
+    <div class="mainblock cf">
+      <div class="leftblock">
+        {% block centerblock %}
+        {% endblock %}
+
+        {% block youtube %}
+        {% endblock %}
+      </div>
+      <div class="rightblock">
+        {% block rightyoutube %}
+        {% endblock %}
+        {% block ytchannel %}
+        {% endblock %}
+        {% block blog %}
+        {% endblock %}
+      </div>
+    </div>
+    
+    {% include "counselor/footer.html" %}    
+  </div>
+
+<script type="text/javascript">
+var index = 0;
+
+function handleInterval() {
+  if (index > 4) {
+    index = 0;
+  }
+  select_image(index);
+  index++;
+}
+
+var intervalHandle = window.setInterval(handleInterval, 3000);
+
+function select_image(id)
+{
+      // Clear classname.
+      document.getElementById('slide-0').className = "";
+      document.getElementById('slide-1').className = "";
+      document.getElementById('slide-2').className = "";
+      document.getElementById('slide-3').className = "";
+      document.getElementById('slide-4').className = "";
+      // Set classname opaque.
+      document.getElementById('slide-' + id).className = "opaque";
+
+      document.getElementById(0).className = "";
+      document.getElementById(1).className = "";
+      document.getElementById(2).className = "";
+      document.getElementById(3).className = "";
+      document.getElementById(4).className = "";
+      document.getElementById(id).className = "selected";
+    }
+
+    function slide_click(id) {
+      console.log('clearInterval');
+      window.clearInterval(intervalHandle);
+      select_image(id);
+    }
+    </script>
+
+</body>
+

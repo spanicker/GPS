@@ -1,0 +1,18 @@
+<!doctype html>
+{% include "head.html" %}
+<body>
+  <div class="wrapper cf {{page}}">
+    <div class="topBar"></div>
+    {% include "counselor/header.html" %}
+    <div class="panel cf">
+      <div class="mainpanel">
+
+      {% block content %}
+      {% endblock %}
+
+      </div>
+      {% include "counselor/rightpanel.html" %}
+    </div>
+    {% include "counselor/footer.html" %}
+  </div>
+</body>

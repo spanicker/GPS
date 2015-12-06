@@ -16,6 +16,12 @@ class MainPage(webapp2.RequestHandler):
     	template = JINJA_ENVIRONMENT.get_template('index.html')
         self.response.out.write(template.render(vars))
 
+class StudentHomePage(webapp2.RequestHandler):
+    def get(self):
+        vars = {'page': 'home'}
+        template = JINJA_ENVIRONMENT.get_template('studenthome.html')
+        self.response.out.write(template.render(vars))
+
 class StudentLifePage(webapp2.RequestHandler):
     def get(self):
         vars = {'page': 'home'}
@@ -100,14 +106,45 @@ class StudentDetailFormPage(webapp2.RequestHandler):
         template = JINJA_ENVIRONMENT.get_template('studentdetailform.html')
         self.response.out.write(template.render(vars))
 
-class CounselorPage(webapp2.RequestHandler):
+class CounselorHomePage(webapp2.RequestHandler):
     def get(self):
-        vars = {'page': 'counselor'}
-        template = JINJA_ENVIRONMENT.get_template('counselor.html')
+        vars = {'page': 'home'}
+        template = JINJA_ENVIRONMENT.get_template('counselor/counselorhome.html')
+        self.response.out.write(template.render(vars))
+
+class CounselorCostsPage(webapp2.RequestHandler):
+    def get(self):
+        vars = {'page': 'home'}
+        template = JINJA_ENVIRONMENT.get_template('counselor/costs.html')
+        self.response.out.write(template.render(vars))
+
+class CounselorSchedulePage(webapp2.RequestHandler):
+    def get(self):
+        vars = {'page': 'home'}
+        template = JINJA_ENVIRONMENT.get_template('counselor/schedule.html')
+        self.response.out.write(template.render(vars))
+
+class CounselorApplyPage(webapp2.RequestHandler):
+    def get(self):
+        vars = {'page': 'home'}
+        template = JINJA_ENVIRONMENT.get_template('counselor/apply.html')
+        self.response.out.write(template.render(vars))
+
+class CounselorAboutPage(webapp2.RequestHandler):
+    def get(self):
+        vars = {'page': 'home'}
+        template = JINJA_ENVIRONMENT.get_template('counselor/about.html')
+        self.response.out.write(template.render(vars))
+
+class CounselorContactPage(webapp2.RequestHandler):
+    def get(self):
+        vars = {'page': 'home'}
+        template = JINJA_ENVIRONMENT.get_template('counselor/contact.html')
         self.response.out.write(template.render(vars))
 
 application = webapp2.WSGIApplication([
     ('/', MainPage),
+    ('/studenthome', StudentHomePage),
     ('/studentlife', StudentLifePage),
     ('/universitychoice', UniversityChoicePage),
     ('/developskills', DevelopSkillsPage),
@@ -122,5 +159,10 @@ application = webapp2.WSGIApplication([
     ('/contact', ContactPage),
     ('/testimonials', TestimonialsPage),
     ('/studentdetailform', StudentDetailFormPage),
-    ('/counselor', CounselorPage)
+    ('/counselorhome', CounselorHomePage),
+    ('/counselorapply', CounselorApplyPage),
+    ('/counselorcosts', CounselorCostsPage),
+    ('/counselorschedule', CounselorSchedulePage),
+    ('/counselorabout', CounselorAboutPage),
+    ('/counselorcontact', CounselorContactPage),
 ], debug=True)
