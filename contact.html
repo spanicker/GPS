@@ -1,27 +1,22 @@
-<!doctype html>
-{% include "head.html"%}
-<body>
-  <div class="wrapper cf {{page}}">
-    <div class="topBar"></div>
-    {% include "header.html"%}
+{% extends "base.html" %}
 
-  <div class="summary">
-    <h2 class="title">CONTACT US</h2>
-    <h3> Questions about Global Paths?  Please contact us: <h3>
-    <div class="bio-row cf">
-      <div class="photo">
-        <img src="photos/Helen.png">
-      </div>
-     
-      <div class="bio">
-        <h4><strong>Helen Auckland</strong><br></h4>
-        <h5>Email:&nbsp;&nbsp;&nbsp; hrauckland@globalpaths.co.uk<br>
-          Phone:&nbsp; +44 77142 44112<br>
-          Skype:&nbsp;&nbsp; hrauckland</h5>
-      </div>
-    </div>
-    
-  {% include "footer.html"%}
-
+{% block content %}
+<div class="summary">
+<h2 class="title">Contact Us</h2>
+<h4>If you have questions about the Global Paths student programme, please contact us via phone, email or online form:<br></h4>
+<b>Phone:</b>
+<br>
++44 77142 44112
+<br><br>
+<b>Email:</b>
+<br>
+hrauckland@globalpaths.co.uk
+<br><br>
+<div>
+  <iframe class="embeddoc" src="https://docs.google.com/forms/d/16_UXLuSbLGTXgcdmbGTXvo_IwGKoM7t0yg7RZjlkytw/viewform" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 </div>
-</body>
+</div>
+{% endblock %}
+
+
+
