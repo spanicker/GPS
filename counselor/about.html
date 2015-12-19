@@ -1,7 +1,61 @@
-{% extends "counselor/counselor_base.html" %}
+<!doctype html>
+{% include "head.html"%}
 
-{% block content %}
-<div class="summary">
-<h2 class="title">COMING SOON</h2>
-</div>    
-{% endblock %}
+
+<div class="wrapper cf {{page}}">
+    <div class="topBar"></div>
+    {% include "header.html"%}
+
+    <div class="summary" style="width:72%;margin-left:100px">
+
+        <div class="cf">
+            <span class="photo" style="text-align:center">
+              <img src="photos/HelenAbout.png">
+              Helen Auckland, Director
+            </span>
+
+            <span class="bio" style="margin-top:30px" >
+                <h2>OUR TEAM</h2>
+                <h4>
+                	<p>Helen has over 13 years of experience working in UK and US universities. As Assistant Director of International Admissions at Duquesne University, she met hundreds of international students and learned the challenges they face in deciding which university to attend. This led to the launch of Global Paths.
+
+                    <p>Helen has run the Global Paths student programme for the past 4 years. Each year, she invites a couple of counsellors to attend and after each programme, they have always said: “You should run a separate programme focused on counsellors!”
+
+                    <p>With a similar theme to the student programme but with specific focus on counsellor needs, Helen is delighted to be launching the programme in 2016.
+
+                    <p>Helen lives in Bath, UK and works at the University of Bath, helping students to gain practical work experience to become more employable after graduation.
+                </h4>
+            </span>
+        </div>
+    
+        <div class="cf">
+            <br>
+            <h2>Ofelia Ponce, Programme Manager</h2>
+            Having been an undergraduate and postgraduate international student herself, Ofelia is passionate about helping students to make the right decision of university.
+            <p>Ofelia has worked with Global Paths for the past 5 years, travelling from her hometown of Tegucigalpa, Honduras each year. Outside of her summer in the UK, Ofelia’s full-time job is Head of Investment Promotion in the Ministry of Economic Development.
+
+            <p>Ofelia studied her Undergraduate and Postgraduate degrees at Duquesne University, USA. As a student, she worked as Resident Assistant in 
+        </div>
+
+        <div class="cf">
+          <span class="photo">
+            <img src="photos/OfeliaPonceAbout.png">
+            Ofelia Ponce, <br>Programme Manger
+          </span>
+          <span class="photo" style="margin-left:50px">
+            <img src="photos/ProfAucklandAbout.png">
+            Prof. Auckland, <br>Project Teacher
+          </span>  
+        </div>
+        <div class="cf">
+            <br><br>
+            <h2>Professor Auckland, Project Teacher </h2>
+            <p>David Auckland has had a lifelong career in UK universities. 
+            <p>He served as both Dean of the Graduate School of Science, Engineering and Medicine and Professor of Business Creation at Manchester University. He has also worked at the University of Chester and currently teaches at Newcastle University.
+
+            
+        </div>
+    </div>
+</div>
+
+{% include "footer.html"%}
