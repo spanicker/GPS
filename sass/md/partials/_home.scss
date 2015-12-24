@@ -1,0 +1,53 @@
+// Nav Buttons on slideshow
+.nav-slider {
+	padding-top: 600px;
+    width: 100%;
+    text-align: center; 
+} 
+.nav-slider li { 
+    display: inline; 
+    margin: 0 5px; 
+} 
+.nav-slider li a { 
+    background: #ddd; 
+    border: 1px solid #ccc; 
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,0.25);
+    display: inline-block; 
+    height: 11px; 
+    width: 11px; 
+    text-indent: -9999px; 
+}
+.nav-slider li a { 
+    transition: all 300ms ease-out; 
+} 
+.nav-slider li a:hover { 
+    background: $theme-grey;
+    transition: all 100ms ease-in; 
+}
+.nav-slider li a:active { 
+    background: #00aeef;
+    transition: all 50ms; 
+}
+.nav-slider li a.selected { 
+    background: $theme-blue;
+}
+
+// Slideshow section
+.slideshow-section {
+    position: relative;
+    height: 800px;
+    width: auto;
+}
+
+.slideshow-section.imageOne {
+    background: url('../photos/home4.png') center / cover;
+    /*transition: opacity 1s ease-in-out; */
+}
+.slideshow-section.imageTwo {
+    background: url('../photos/home7.png') center / cover;
+    /*transition: opacity 1s ease-in-out; */
+}

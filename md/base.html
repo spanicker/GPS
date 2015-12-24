@@ -1,0 +1,61 @@
+
+<!doctype html>
+<html lang="en">
+  {% include "md/head.html" %}
+  <body>
+  <style>
+    /*
+    .gps-main.mdl-layout__content {
+    	position: relative;
+    	display:block;
+        background: #636363;
+        height: 30px;
+    }
+    */
+  </style>
+
+
+  <div class="gps-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    {% include "md/header.html" %}
+
+  <main class="gps-main mdl-layout__content">
+    {% block maincontent %}
+    {% endblock %}
+
+    
+  <footer class="mdl-mini-footer">
+    <div class="mdl-mini-footer__left-section">
+      <div class="mdl-logo">Title</div>
+      <ul class="mdl-mini-footer__link-list">
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Privacy & Terms</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  </main>
+
+  </div>
+
+  <script type="text/javascript">
+      function select_image(id) {
+        // Clear classname.
+        if ( document.getElementById("slide-container").classList.contains('imageOne')) {
+          document.getElementById('slide-container').classList.remove('imageOne');
+          document.getElementById('slide-container').classList.add('imageTwo');
+        } else {
+          document.getElementById('slide-container').classList.remove('imageTwo');
+          document.getElementById('slide-container').classList.add('imageOne');
+        }
+      }
+
+      function slide_click(id) {
+      	document.getElementById(1).classList.remove('selected');
+      	document.getElementById(2).classList.remove('selected');
+      	document.getElementById(id).className = "selected";
+        select_image(id);
+      }
+  </script>
+  </body>
+</html>
+
