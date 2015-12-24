@@ -1,0 +1,98 @@
+.home .topnav .homenav,
+.about .topnav .aboutnav,
+.contact .topnav .contactnav,
+.testimonial .topnav .testimonialnav {
+	color: $fontcolor-cyan;
+}
+
+.topBar {
+	border-bottom: 6px solid #636363;
+	/*#969595; */
+	/*#202020;*/
+}
+
+header {
+	padding: 2px;
+	border-bottom: 1px solid #c2c2c2;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.logo {
+	width: 25%;
+	float: left;
+	padding: 4px;
+}
+
+.logo img {
+	width: 100%;
+}
+
+header nav {
+	width: 75%;
+	float: right;
+}
+
+.topnav {
+	list-style: none;
+	float: right; 
+	margin-top: 20px;
+}
+
+.topnav li {
+	float: left;
+}
+
+.topnav li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	color: #636363;
+	transition: color 0.3s ease;
+	/*font-weight: bold;
+	font-stretch: condensed;*/
+	/*font-size: 15px;*/
+}
+
+.topnav li a:hover {
+	color: $fontcolor-cyan;
+}
+
+.signupBar {
+    width: 100%;
+    margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+
+}
+
+.signupMsg {
+	width: 73%;
+	float: left;
+
+	padding-left: 20px;
+	padding-bottom: 20px;
+
+	color: white;
+	background-color: $fontcolor-cyan;
+}
+
+.signupMsg input[type=submit], 
+.signupMsg input[type=text],
+.signupMsg input[type=email] {
+    height: 25px;
+    border-radius: 4px;
+    float: left;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.signupImg {
+	float: right;
+}
+
+.signupImg img {
+	max-width: 100%;
+	max-height: 100%;
+}

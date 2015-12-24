@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAO;EACN,KAAK,EAAC,IAAI;EACV,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,IAAI;EAChB,YAAY,EAAE,IAAI;;AAInB,YAAa;EACZ,KAAK,EAAC,IAAI;EACV,YAAY,EAAE,IAAI;EAClB,KAAK,EAAE,GAAG",
+"sources": ["../../../sass/retro/partials/testimonials.scss"],
+"names": [],
+"file": "testimonials.css"
+}
