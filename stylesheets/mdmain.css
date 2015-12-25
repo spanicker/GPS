@@ -27,9 +27,8 @@ h1, h2, h3, h4, h5 {
 .gps-layout .mdl-layout__header,
 .gps-layout .mdl-layout__drawer-button,
 .mdl-layout__header-row .mdl-navigation__link {
-  /* This background is dark, so we set text to white. */
-  color: white;
-  background-color: #9E9E9E;
+  color: #757575;
+  background-color: white;
   font-size: medium; }
 
 .mdl-layout-title {
