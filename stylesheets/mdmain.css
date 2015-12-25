@@ -35,9 +35,36 @@ h1, h2, h3, h4, h5 {
 .mdl-layout-title {
   font-size: 30px; }
 
-.mdl-layout__drawer-button {
-  /*padding-top: 15px;*/ }
+.gps-menudrawer {
+  border-right: none; }
 
+.gps-menudrawer-separator {
+  height: 1px;
+  background-color: #dcdcdc;
+  margin: 8px 0; }
+
+.gps-menudrawer .mdl-navigation__link.mdl-navigation__link {
+  font-size: 14px;
+  color: #757575; }
+
+.gps-menudrawer span.mdl-navigation__link.mdl-navigation__link {
+  color: #00BCD4; }
+
+.gps-menudrawer .mdl-layout-title {
+  text-align: left;
+  position: relative;
+  color: white;
+  background: #00BCD4;
+  height: 100px;
+  font-size: 22px; }
+
+/*
+.gps-menudrawer .gps-logo-image {
+  position: absolute;
+  bottom: 16px;
+}
+
+*/
 .nav-slider {
   padding-top: 600px;
   width: 100%;
@@ -80,11 +107,41 @@ h1, h2, h3, h4, h5 {
   width: auto; }
 
 .slideshow-section.imageOne {
-  background: url("../photos/home4.png") center/cover;
+  background: url("../photos/mdhome1text.jpg") center/cover;
   /*transition: opacity 1s ease-in-out; */ }
 
 .slideshow-section.imageTwo {
-  background: url("../photos/home7.png") center/cover;
+  background: url("../photos/mdhome2text.jpg") center/cover;
   /*transition: opacity 1s ease-in-out; */ }
+
+.home-card-image.mdl-card {
+  width: 32%;
+  height: 256px;
+  text-align: center; }
+
+.mdl-card__title {
+  padding-top: 60px;
+  text-align: center;
+  display: inline; }
+
+.mdl-card__title-text {
+  color: white;
+  display: inline; }
+
+.home-card-image .mdl-button {
+  color: white; }
+
+.studentlife-card {
+  background: url("../photos/studentlife.png") center/cover; }
+
+.universitychoice-card {
+  background: url("../photos/universitychoice.png") center/cover; }
+
+.developskills-card {
+  background: url("../photos/developskills.png") center/cover; }
+
+.signup-action {
+  text-align: center;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=mdmain.css.map */

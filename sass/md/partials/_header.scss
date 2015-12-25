@@ -12,8 +12,38 @@
     font-size: 30px;
 }
 
-.mdl-layout__drawer-button {
-  	/*padding-top: 15px;*/
+.gps-menudrawer {
+  border-right: none;
 }
 
+.gps-menudrawer-separator {
+  height: 1px;
+  background-color: #dcdcdc;
+  margin: 8px 0;
+}
 
+.gps-menudrawer .mdl-navigation__link.mdl-navigation__link {
+  font-size: 14px;
+  color: #757575;
+}
+
+.gps-menudrawer span.mdl-navigation__link.mdl-navigation__link {
+color: $theme-blue;
+}
+
+.gps-menudrawer .mdl-layout-title {
+  text-align: left;
+  position: relative;
+  color: white;
+  background: $theme-blue;
+  height: 100px;
+  font-size: 22px;
+}
+
+/*
+.gps-menudrawer .gps-logo-image {
+  position: absolute;
+  bottom: 16px;
+}
+
+*/

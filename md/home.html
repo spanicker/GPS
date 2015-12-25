@@ -4,37 +4,64 @@
 {% block maincontent %}
 
   <div id="slide-container" class="slideshow-section imageOne">
-        <!-- slider navigation -->
-        <div class="nav-slider"> 
+    <!-- slider navigation -->
+    <div class="nav-slider"> 
           <ul> 
             <li><a href="#" id="1" class="selected" onClick="slide_click(this.id)">1</a></li> 
             <li><a href="#" id="2" onClick="slide_click(this.id)">2</a></li> 
           </ul> 
-        </div>
+    </div>
   </div>
 
-  <div>
-    <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--3-col-phone mdl-card mdl-shadow--3dp">
+  <div class="home-card-container mdl-grid">
+    <div class="home-card-image studentlife-card mdl-card mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-shadow--3dp">
       
       <div class="mdl-card__title">
-        <h4 class="mdl-card__title-text">Get going on Android</h4>
+        <h4 class="mdl-card__title-text">Prepare for <br> Student Life</h4>
       </div>
-      <div class="mdl-card__media">
-        <img src="images/more-from-1.png">
-      </div>
-      <div class="mdl-card__supporting-text">
-        <span class="mdl-typography--font-light mdl-typography--subhead">Four tips to make your switch to Android quick and easy</span>
-      </div>
+      <div class="mdl-card__supporting-text"></div>
       <div class="mdl-card__actions">
-          <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
-          Make the switch
-          <i class="material-icons">chevron_right</i>
-          </a>
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent">
+            <i class="material-icons">add</i>
+        </button>
       </div>
-      </div>
+    </div>
 
-    fslsdjf;ldjf
-  	sldgjd;lsjglsjg
+      <div class="home-card-image universitychoice-card mdl-card mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-shadow--3dp">
+      
+      <div class="mdl-card__title">
+        <h4 class="mdl-card__title-text">Make the Right <br> University Choice</h4>
+      </div>
+      <div class="mdl-card__supporting-text"></div>
+      <div class="mdl-card__actions">
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent">
+            <i class="material-icons">add</i>
+        </button>
+
+      </div>
+    </div>
+
+    <div class="home-card-image developskills-card mdl-card mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-shadow--3dp">
+      
+      <div class="mdl-card__title">
+        <h4 class="mdl-card__title-text">Develop Skills <br>For Success</h4>
+      </div>
+      <div class="mdl-card__supporting-text"></div>
+      <div class="mdl-card__actions">
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent">
+            <i class="material-icons">add</i>
+        </button>
+
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Accent-colored raised button -->
+  <div class="signup-action">
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
+      Sign up for Summer Programme 2016
+    </button>
   </div>
 
 {% endblock %}
