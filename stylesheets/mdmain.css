@@ -28,12 +28,20 @@ h1, h2, h3, h4, h5 {
 .gps-layout .mdl-layout__drawer-button,
 .mdl-layout__header-row .mdl-navigation__link {
   color: #757575;
-  background-color: white;
-  font-size: medium; }
+  background-color: white; }
 
-.mdl-layout-title {
-  font-size: 30px; }
+@media screen and (min-width: 481px) {
+  .mdl-layout-title {
+    font-size: 30px; }
 
+  .mdl-layout__header-row .mdl-navigation__link {
+    font-size: medium; } }
+@media screen and (max-width: 480px) {
+  .mdl-layout-title {
+    font-size: 15px; }
+
+  .mdl-layout__header-row .mdl-navigation__link {
+    font-size: small; } }
 .gps-menudrawer {
   border-right: none; }
 
@@ -105,14 +113,18 @@ h1, h2, h3, h4, h5 {
   height: 800px;
   width: auto; }
 
-.slideshow-section.imageOne {
-  background: url("../photos/mdhome1text.jpg") center/cover;
-  /*transition: opacity 1s ease-in-out; */ }
+@media screen and (min-width: 481px) {
+  .slideshow-section.imageOne {
+    background: url("../photos/mdhome1text.jpg") center/cover; }
 
-.slideshow-section.imageTwo {
-  background: url("../photos/mdhome2text.jpg") center/cover;
-  /*transition: opacity 1s ease-in-out; */ }
+  .slideshow-section.imageTwo {
+    background: url("../photos/mdhome2text.jpg") center/cover; } }
+@media screen and (max-width: 480px) {
+  .slideshow-section.imageOne {
+    background: url("../photos/mdhome1_480px.jpg") center/cover; }
 
+  .slideshow-section.imageTwo {
+    background: url("../photos/mdhome2_480px.jpg") center/cover; } }
 .home-card-image.mdl-card {
   width: 32%;
   height: 256px;

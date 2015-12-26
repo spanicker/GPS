@@ -4,11 +4,23 @@
 .mdl-layout__header-row .mdl-navigation__link {
     color: #757575;
     background-color: white;
-    font-size: medium;
 }
 
-.mdl-layout-title {
-    font-size: 30px;
+@media screen and (min-width: 481px) {
+  .mdl-layout-title {
+      font-size: 30px;
+  }
+  .mdl-layout__header-row .mdl-navigation__link {
+    font-size: medium;
+  }
+}
+@media screen and (max-width: 480px) {
+  .mdl-layout-title {
+      font-size: 15px;
+  }
+  .mdl-layout__header-row .mdl-navigation__link {
+    font-size: small;
+  }
 }
 
 .gps-menudrawer {
