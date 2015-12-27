@@ -12,6 +12,9 @@ handlers:
 - url: /photos
   static_dir: photos
 
+- url: /dist
+  static_dir: dist
+
 - url: /.*
   script: gps.application
 
