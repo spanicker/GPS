@@ -80,7 +80,8 @@ h1, h2, h3, h4, h5 {
 
 */
 .nav-slider {
-  padding-top: 600px;
+  position: absolute;
+  top: 80%;
   width: 100%;
   text-align: center; }
 
@@ -117,43 +118,77 @@ h1, h2, h3, h4, h5 {
 
 .slideshow-section {
   position: relative;
-  height: 100vh;
-  width: 100vw; }
+  height: 100vh; }
 
-@media screen and (min-width: 641px) {
+.slide-signup-spacer {
+  width: 7px;
+  height: 40px;
+  float: right; }
+
+.slide-title {
+  margin: 15px;
+  position: absolute;
+  left: 30%;
+  top: 52%;
+  color: white; }
+
+.slide-subtext {
+  position: relative;
+  padding: 10px;
+  color: white; }
+
+@media screen and (min-width: 769px) {
   .slideshow-section.imageOne {
     background: url("../dist/img/slide1-large.jpg") center/cover; }
 
   .slideshow-section.imageTwo {
-    background: url("../dist/img/slide2-large.jpg") center/cover; } }
-@media screen and (min-width: 481px) and (max-width: 640px) {
+    background: url("../dist/img/slide2-large.jpg") center/cover; }
+
+  .slide-signup {
+    position: absolute;
+    top: 55%;
+    left: 22%; }
+
+  .slide-title {
+    font-size: xx-large; }
+
+  .slide-subtext {
+    font-size: large; } }
+@media screen and (min-width: 481px) and (max-width: 768px) {
   .slideshow-section.imageOne {
     background: url("../dist/img/slide1-medium.jpg") center/cover; }
 
   .slideshow-section.imageTwo {
-    background: url("../dist/img/slide2-medium.jpg") center/cover; } }
+    background: url("../dist/img/slide2-medium.jpg") center/cover; }
+
+  .slide-signup {
+    position: absolute;
+    top: 72%;
+    left: 45%; }
+
+  .slide-title {
+    font-size: x-large; }
+
+  .slide-subtext {
+    font-size: medium; } }
 @media screen and (max-width: 480px) {
   .slideshow-section.imageOne {
     background: url("../dist/img/slide1-small.jpg") center/cover; }
 
   .slideshow-section.imageTwo {
-    background: url("../dist/img/slide2-small.jpg") center/cover; } }
-.slide-title {
-  margin: 5px;
-  position: absolute;
-  left: 45%;
-  top: 52%;
-  color: white;
-  font-size: xx-large; }
+    background: url("../dist/img/slide2-small.jpg") center/cover; }
 
-.slide-subtext {
-  position: relative;
-  padding: 10px;
-  color: white;
-  font-size: large; }
+  .slide-signup {
+    position: absolute;
+    top: 75%;
+    left: 45%; }
 
+  .slide-title {
+    font-size: large; }
+
+  .slide-subtext {
+    font-size: medium; } }
 .home-card-image.mdl-card {
-  width: 32%;
   height: 256px;
   text-align: center; }
 
@@ -178,7 +213,7 @@ h1, h2, h3, h4, h5 {
 .developskills-card {
   background: url("../photos/developskills.png") center/cover; }
 
-.signup-action {
+.signup-footer-action {
   text-align: center;
   margin: 0 auto; }
 
