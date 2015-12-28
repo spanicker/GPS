@@ -24,6 +24,13 @@ h1, h2, h3, h4, h5 {
   font-style: normal;
   font-weight: normal; }
 
+/* Fixes for IE 10 */
+.mdl-grid {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important; }
+
 .gps-layout .mdl-layout__header,
 .gps-layout .mdl-layout__drawer-button,
 .mdl-layout__header-row .mdl-navigation__link {
@@ -113,18 +120,38 @@ h1, h2, h3, h4, h5 {
   height: 100vh;
   width: 100vw; }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 641px) {
   .slideshow-section.imageOne {
-    background: url("../dist/img/home1-large.jpg") center/cover; }
+    background: url("../dist/img/slide1-large.jpg") center/cover; }
 
   .slideshow-section.imageTwo {
-    background: url("../photos/mdhome2text.jpg") center/cover; } }
+    background: url("../dist/img/slide2-large.jpg") center/cover; } }
+@media screen and (min-width: 481px) and (max-width: 640px) {
+  .slideshow-section.imageOne {
+    background: url("../dist/img/slide1-medium.jpg") center/cover; }
+
+  .slideshow-section.imageTwo {
+    background: url("../dist/img/slide2-medium.jpg") center/cover; } }
 @media screen and (max-width: 480px) {
   .slideshow-section.imageOne {
-    background: url("../dist/img/home1-small.jpg") center/cover; }
+    background: url("../dist/img/slide1-small.jpg") center/cover; }
 
   .slideshow-section.imageTwo {
-    background: url("../photos/mdhome2_480px.jpg") center/cover; } }
+    background: url("../dist/img/slide2-small.jpg") center/cover; } }
+.slide-title {
+  margin: 5px;
+  position: absolute;
+  left: 45%;
+  top: 52%;
+  color: white;
+  font-size: xx-large; }
+
+.slide-subtext {
+  position: relative;
+  padding: 10px;
+  color: white;
+  font-size: large; }
+
 .home-card-image.mdl-card {
   width: 32%;
   height: 256px;

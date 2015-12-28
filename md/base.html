@@ -5,16 +5,23 @@
   <body>
   <style>
     /*
-    .gps-main.mdl-layout__content {
-    	position: relative;
-    	display:block;
-        background: #636363;
-        height: 30px;
+    .social-btn {
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      margin: 0 16px;
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+      opacity: 0.46;
+      border-radius: 2px;
+    }
+    .social-btn__fb {
+      background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_facebook_black_24dp.png');
     }
     */
-
-    /*
-    */
+    
   </style>
 
 
@@ -28,12 +35,28 @@
     
   <footer class="mdl-mini-footer">
     <div class="mdl-mini-footer__left-section">
-      <!--div class="mdl-logo">Title</div-->
+      <!--button class="mdl-mini-footer--social-btn social-btn social-btn__fb">
+        <span class="visuallyhidden">Facebook</span>
+      </button-->
       <ul class="mdl-mini-footer__link-list">
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="https://www.facebook.com/GlobalPaths">
+          <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+            <path fill="#000000" d="M19,4V7H17A1,1 0 0,0 16,8V10H19V13H16V20H13V13H11V10H13V7.5C13,5.56 14.57,4 16.5,4M20,2H4A2,2 0 0,0 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" />
+          </svg>
+        </a></li>
+        <li><a href="https://www.youtube.com/channel/UCvBMe9XbsZQE-De7_EoNJdA/feed">
+          <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+            <path fill="#000000" d="M10,16.5V7.5L16,12M20,4.4C19.4,4.2 15.7,4 12,4C8.3,4 4.6,4.19 4,4.38C2.44,4.9 2,8.4 2,12C2,15.59 2.44,19.1 4,19.61C4.6,19.81 8.3,20 12,20C15.7,20 19.4,19.81 20,19.61C21.56,19.1 22,15.59 22,12C22,8.4 21.56,4.91 20,4.4Z" />
+          </svg>
+        </a></li>
       </ul>
+    </div>
+    <div class="mdl-mini-footer__right-section">
+      <ul class="mdl-mini-footer__link-list">
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
     </div>
   </footer>
 

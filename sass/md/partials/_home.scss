@@ -13,8 +13,8 @@
     border: 1px solid #ccc; 
     border-radius: 20px;
     -webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	-o-border-radius: 20px;
+	  -moz-border-radius: 20px;
+	  -o-border-radius: 20px;
     box-shadow: inset 1px 1px 3px rgba(0,0,0,0.25);
     display: inline-block; 
     height: 11px; 
@@ -43,24 +43,51 @@
     width: 100vw;
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 641px) {
   .slideshow-section.imageOne { 
-    background: url('../dist/img/home1-large.jpg') center / cover;
+    background: url('../dist/img/slide1-large.jpg') center / cover;
   }
 
   .slideshow-section.imageTwo {
-    background: url('../photos/mdhome2text.jpg') center / cover;
+    background: url('../dist/img/slide2-large.jpg') center / cover;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 640px) {
+  .slideshow-section.imageOne { 
+    background: url('../dist/img/slide1-medium.jpg') center / cover;
+  }
+
+  .slideshow-section.imageTwo {
+    background: url('../dist/img/slide2-medium.jpg') center / cover;
   }
 }
 
 @media screen and (max-width: 480px) {
   .slideshow-section.imageOne { 
-    background: url('../dist/img/home1-small.jpg') center / cover;
+    background: url('../dist/img/slide1-small.jpg') center / cover;
   }
 
   .slideshow-section.imageTwo {
-    background: url('../photos/mdhome2_480px.jpg') center / cover;
+    background: url('../dist/img/slide2-small.jpg') center / cover;
   }
+}
+
+// Slide text
+.slide-title {
+  margin: 5px;
+  position: absolute;
+  left:45%;
+  top:52%;
+  color: white;
+  font-size: xx-large;
+}
+
+.slide-subtext {
+  position: relative;
+  padding: 10px;
+  color: white;
+  font-size: large;
 }
 
 // Cards for studentlife etc.
