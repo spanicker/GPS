@@ -1,0 +1,54 @@
+
+
+@media screen and (min-width: 769px) {
+  .slideshow-section.studentDetailHero { 
+    background: url('../dist/img/studentdetail-large.jpg') center / cover;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .slideshow-section.studentDetailHero { 
+    background: url('../dist/img/studentdetail-medium.jpg') center / cover;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .slideshow-section.studentDetailHero { 
+    background: url('../dist/img/studentdetail-small.jpg') center / cover;
+  }
+}
+
+// Slide text
+.slide-title {
+  color: #757575;
+}
+
+.slide-subtext {
+  color: #757575;
+}
+
+.studentdetail-section {
+  text-align: center;
+}
+
+.studentdetail-section-text {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 16px 0 16px;
+}
+
+.studentdetail-section-text p {
+  padding-top: 16px;
+}
+
+.studentdetail-section-subtext {
+  font-size: medium;
+}
+
+.studentdetail-section-image {
+  background: url('images/devices.jpg') center top no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
