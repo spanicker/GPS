@@ -82,6 +82,12 @@ class AccommodationPage(webapp2.RequestHandler):
     	template = JINJA_ENVIRONMENT.get_template('student/accommodation.html')
         self.response.out.write(template.render(vars))
 
+class ScholarshipPage(webapp2.RequestHandler):
+    def get(self):
+        vars = {'page': 'home'}
+        template = JINJA_ENVIRONMENT.get_template('student/scholarship.html')
+        self.response.out.write(template.render(vars))
+
 class AboutPage(webapp2.RequestHandler):
     def get(self):
         vars = {'page': 'about'}
@@ -172,6 +178,7 @@ application = webapp2.WSGIApplication([
     ('/schedule', SchedulePage),
     ('/safety', SafetyPage),
     ('/accommodation', AccommodationPage),
+    ('/scholarship', ScholarshipPage),
     ('/visa', VisaPage),
     ('/about', AboutPage),
     ('/contact', ContactPage),
